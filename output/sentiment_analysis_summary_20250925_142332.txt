@@ -1,0 +1,114 @@
+============================================================
+SENTIMENT ANALYSIS REPORT
+============================================================
+Generated: 2025-09-25 14:23:32
+Total Responses Analyzed: 31
+Success Rate: 100.0%
+
+EXECUTIVE SUMMARY
+-----------------
+
+Overall Sentiment Distribution:
+  • Positive: 4 responses (12.9%)
+  • Neutral:  21 responses (67.7%)
+  • Negative: 6 responses (19.4%)
+
+Key Findings:
+  • Neutral sentiment dominates with 21 responses
+  • Average confidence score: 0.76
+  • Processing completed with 100.0% success rate
+
+DETAILED STATISTICS
+-------------------
+
+Sentiment Distribution:
+  Positive:    4 responses
+  Neutral:    21 responses
+  Negative:    6 responses
+  Total:      31 responses
+
+Confidence Score Statistics:
+  Mean:     0.763
+  Median:   0.700
+  Min:      0.700
+  Max:      0.900
+  Std Dev:  0.073
+
+Processing Time Statistics:
+  Average:  1.51 seconds per response
+  Total:    46.67 seconds
+  Fastest:  0.00 seconds
+  Slowest:  4.69 seconds
+
+SAMPLE RESULTS
+--------------
+
+Positive Examples:
+  1. Text: "Conversas de saúde mental realmente eficazes"
+     Confidence: 0.850 | Reasoning: O texto expressa uma opinião favorável sobre conversas de saúde mental, indicand...
+
+  2. Text: "Sim, um sistema mais eficiente para emissão de documentos pelos discentes"
+     Confidence: 0.800 | Reasoning: O texto expressa uma opinião favorável sobre a eficiência de um sistema para emi...
+
+  3. Text: "Sim, um suporte mais ativo e com pessoas que tenham as informações necessárias para sanar as nossas ..."
+     Confidence: 0.800 | Reasoning: O texto expressa uma expectativa positiva em relação a um suporte mais ativo e b...
+
+  4. Text: "Sim, uma em que os discentes possam dar sugestões e os de administração possam ser mais inclusos e o..."
+     Confidence: 0.700 | Reasoning: O texto expressa uma expectativa positiva em relação à inclusão e à escuta das s...
+
+Negative Examples:
+  1. Text: "Senti falta de apoio no início do curso. Como certas instruções ou até mesmo dicas."
+     Confidence: 0.850 | Reasoning: O texto expressa insatisfação e frustração devido à falta de apoio e instruções ...
+
+  2. Text: "Sinto falta de políticas voltadas para acompanhamento psicopedagógico contínuo, programas de apoio à..."
+     Confidence: 0.850 | Reasoning: O texto expressa uma insatisfação em relação à falta de políticas e iniciativas ...
+
+  3. Text: "Sim,o próprio site da upe deveria ser melhorado!"
+     Confidence: 0.850 | Reasoning: O texto expressa uma crítica ao site da UPE, sugerindo que ele precisa de melhor...
+
+  4. Text: "Não."
+     Confidence: 0.800 | Reasoning: O texto 'Não.' expressa uma negação clara, que geralmente está associada a senti...
+
+  5. Text: "Sim. Sinto falta de um ambiente de lazer e uma copa mais equipada."
+     Confidence: 0.800 | Reasoning: O texto expressa uma insatisfação ao mencionar a falta de um ambiente de lazer e...
+
+Neutral Examples:
+  1. Text: "."
+     Confidence: 0.900 | Reasoning: O texto consiste apenas em um ponto final, o que não expressa qualquer emoção ou...
+
+  2. Text: "."
+     Confidence: 0.900 | Reasoning: [CACHED] O texto consiste apenas em um ponto final, o que não expressa qualquer ...
+
+  3. Text: "."
+     Confidence: 0.900 | Reasoning: [CACHED] O texto consiste apenas em um ponto final, o que não expressa qualquer ...
+
+  4. Text: "Não sinto"
+     Confidence: 0.800 | Reasoning: O texto 'Não sinto' é uma declaração factual que não expressa uma emoção clara, ...
+
+  5. Text: "FAQ sobre dúvidas que os estudantes possuem."
+     Confidence: 0.800 | Reasoning: O texto é informativo e não expressa emoções positivas ou negativas. Ele simples...
+
+PROCESSING INFORMATION
+----------------------
+
+Processing Details:
+  Source File: .\data\teste2.xlsx
+  Total Processing Time: 46.67 seconds
+  Openai Model: gpt-4o-mini
+
+API Performance Statistics:
+  Total API Requests: 21
+  Success Rate: 100.0%
+  Average Request Time: 2.222s
+  Rate Limit Hits: 0
+  Timeout Errors: 0
+
+Cache Performance:
+  Cache Size: 21 entries
+  Cache Hits: 10
+  Cache Misses: 21
+  Cache Hit Rate: 32.3%
+
+============================================================
+Report generated at 2025-09-25 14:23:32
+============================================================

@@ -468,15 +468,22 @@ class PerformanceBenchmark:
         return "\n".join(report_lines)
     
     def save_results(self, results: Dict[str, Any], filename: str = None) -> str:
-        """Save benchmark results to file."""
+        """Save benchmark results to file in docs directory."""
+        # Ensure docs directory exists
+        docs_dir = "docs"
+        if not os.path.exists(docs_dir):
+            os.makedirs(docs_dir)
+        
         if filename is None:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"benchmark_results_{timestamp}.json"
         
-        with open(filename, 'w') as f:
+        # Save to docs directory
+        filepath = os.path.join(docs_dir, filename)
+        with open(filepath, 'w') as f:
             json.dump(results, f, indent=2, default=str)
         
-        return filename
+        return filepath
 
 
 def main():
@@ -498,8 +505,9 @@ def main():
     results_file = benchmark.save_results(results)
     print(f"📁 Detailed results saved to: {results_file}")
     
-    # Save report
-    report_file = results_file.replace('.json', '_report.txt')
+    # Save report to docs directory
+    report_filename = os.path.basename(results_file).replace('.json', '_report.txt')
+    report_file = os.path.join("docs", report_filename)
     with open(report_file, 'w', encoding='utf-8') as f:
         f.write(report)
     print(f"📄 Report saved to: {report_file}")

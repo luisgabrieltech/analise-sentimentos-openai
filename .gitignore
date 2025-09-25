@@ -229,16 +229,9 @@ $RECYCLE.BIN/
 # Project-specific files
 # =====================
 
-# Output directory with analysis results
-output/
+# Output directory with analysis results/
 results/
 reports/
-
-# Data files (Excel files with survey responses)
-data/
-*.xlsx
-*.xls
-*.csv
 
 # Log files
 logs/

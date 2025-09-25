@@ -1,13 +1,13 @@
 ================================================================================
 SENTIMENT ANALYSIS PERFORMANCE BENCHMARK REPORT
 ================================================================================
-Generated: 2025-09-25T13:47:20.618142
+Generated: 2025-09-25T18:09:14.287475
 
 SYSTEM INFORMATION:
   CPU Cores: 12
   Memory: 15.7 GB
   Python: 3.13.3
-  OpenAI Model: gpt-3.5-turbo
+  OpenAI Model: gpt-4o-mini
 
 CACHE PERFORMANCE:
   Cache Hit Rate: 37.5%
@@ -17,20 +17,20 @@ CACHE PERFORMANCE:
 
 ASYNC PERFORMANCE:
   Sync Throughput: 9.9 requests/second
-  Async Throughput: 13.1 requests/second
-  Performance Speedup: 1.32x
-  Time Savings: 0.49s
+  Async Throughput: 13.2 requests/second
+  Performance Speedup: 1.33x
+  Time Savings: 0.50s
 
 MEMORY OPTIMIZATION:
-  Standard Memory Usage: 1.1MB increase
+  Standard Memory Usage: 1.0MB increase
   Optimized Memory Usage: 1.4MB increase
-  Memory Savings: -0.3MB
-  Optimization Efficiency: -30.1%
+  Memory Savings: -0.4MB
+  Optimization Efficiency: -40.2%
 
 PROCESSING THROUGHPUT:
   Total Responses: 100
-  Processing Time: 5.08s
-  Throughput: 19.67 responses/second
+  Processing Time: 5.09s
+  Throughput: 19.65 responses/second
   Success Rate: 100.0%
   Average Time per Response: 0.051s
 
