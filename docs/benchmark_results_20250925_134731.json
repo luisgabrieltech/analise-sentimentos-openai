@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-09-25T13:47:20.618142",
+  "system_info": {
+    "cpu_count": 12,
+    "memory_total_gb": 15.710807800292969,
+    "python_version": "3.13.3",
+    "platform": "nt",
+    "openai_model": "gpt-3.5-turbo"
+  },
+  "benchmarks": {
+    "cache": {
+      "total_time": 0.5049483776092529,
+      "total_requests": 8,
+      "api_calls": 5,
+      "cache_hits": 3,
+      "cache_misses": 5,
+      "cache_hit_rate": 37.5,
+      "avg_time_per_request": 0.06311854720115662,
+      "cache_efficiency": 37.5
+    },
+    "async": {
+      "sync_time": 2.013674259185791,
+      "async_time": 1.5280139446258545,
+      "speedup": 1.3178376193934893,
+      "sync_throughput": 9.932092993077639,
+      "async_throughput": 13.088885785592192,
+      "total_requests": 20
+    },
+    "memory": {
+      "initial_memory_mb": 111.24609375,
+      "standard_memory_mb": 112.34765625,
+      "optimized_memory_mb": 112.6796875,
+      "standard_memory_increase": 1.1015625,
+      "optimized_memory_increase": 1.43359375,
+      "memory_savings": -0.33203125,
+      "standard_time": 0.03778672218322754,
+      "optimized_time": 0.1361408233642578,
+      "total_responses": 200
+    },
+    "throughput": {
+      "total_time": 5.083229303359985,
+      "total_responses": 100,
+      "successful_responses": 100,
+      "throughput": 19.672533744228414,
+      "success_rate": 1.0,
+      "avg_time_per_response": 0.05083229303359985
+    }
+  }
+}
