@@ -50,7 +50,7 @@ class PerformanceBenchmark:
             from src.config_manager import Configuration
             self.config = Configuration(
                 openai_api_key="mock-key-for-benchmarking",
-                openai_model="gpt-3.5-turbo",
+                openai_model="gpt-4o-mini",
                 api_timeout=30.0,
                 max_retries=3
             )

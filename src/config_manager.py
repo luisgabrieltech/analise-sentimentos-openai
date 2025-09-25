@@ -21,7 +21,7 @@ class Configuration:
     """
     openai_api_key: str
     openai_org_id: Optional[str] = None
-    openai_model: str = "gpt-3.5-turbo"
+    openai_model: str = "gpt-4o-mini"
     api_timeout: int = 30
     max_retries: int = 3
 
@@ -68,7 +68,7 @@ class ConfigurationManager:
         
         # Load optional settings with defaults
         org_id = os.getenv("OPENAI_ORG_ID")
-        model = os.getenv("OPENAI_MODEL", "gpt-3.5-turbo")
+        model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
         timeout = self._load_int_setting("API_TIMEOUT", 30)
         max_retries = self._load_int_setting("MAX_RETRIES", 3)
         
