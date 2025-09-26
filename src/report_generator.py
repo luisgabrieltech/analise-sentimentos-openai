@@ -66,6 +66,9 @@ class ReportGenerator:
         # Sample Results
         report_lines.extend(self._create_sample_results(results.individual_results))
         
+        # Suggestions Summary
+        report_lines.extend(self._create_suggestions_summary(results.individual_results))
+        
         # Insights and Recommendations
         if hasattr(results, 'summary') and results.summary:
             report_lines.extend(self._create_insights_section(results.summary))
@@ -234,6 +237,50 @@ Please check your input data and try again.
             for recommendation in summary.recommendations:
                 lines.append(f"  • {recommendation}")
             lines.append("")
+        
+        return lines
+    
+    def _create_suggestions_summary(self, results: List[SentimentResult]) -> List[str]:
+        """Create a summary of the most common suggestions extracted from responses."""
+        lines = [
+            "SUGESTÕES MAIS CITADAS",
+            "-" * 22,
+            ""
+        ]
+        
+        # Collect all suggestions from successful results
+        all_suggestions = []
+        for result in results:
+            if result.success and result.suggestions:
+                all_suggestions.extend(result.suggestions)
+        
+        if not all_suggestions:
+            lines.extend([
+                "Nenhuma sugestão específica foi extraída das respostas.",
+                ""
+            ])
+            return lines
+        
+        # Count frequency of each suggestion
+        suggestion_counts = {}
+        for suggestion in all_suggestions:
+            # Normalize suggestion for counting (lowercase, strip)
+            normalized = suggestion.lower().strip()
+            if normalized:
+                suggestion_counts[normalized] = suggestion_counts.get(normalized, 0) + 1
+        
+        # Sort by frequency and take top 10
+        top_suggestions = sorted(suggestion_counts.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        lines.append("Os itens mais citados pelos respondentes foram:")
+        for i, (suggestion, count) in enumerate(top_suggestions, 1):
+            percentage = (count / len([r for r in results if r.success])) * 100
+            lines.append(f"  {chr(96 + i)}) {suggestion.title()} ({count} menções - {percentage:.1f}%)")
+        
+        lines.append("")
+        lines.append(f"Total de sugestões únicas: {len(suggestion_counts)}")
+        lines.append(f"Total de menções: {len(all_suggestions)}")
+        lines.append("")
         
         return lines
     

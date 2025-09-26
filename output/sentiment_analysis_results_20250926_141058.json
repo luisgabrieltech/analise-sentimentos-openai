@@ -1,0 +1,2020 @@
+{
+  "individual_results": [
+    {
+      "original_text": "Acho tudo bom em relação a pesquisa e extensão",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "O texto expressa uma opinião favorável sobre pesquisa e extensão, indicando satisfação com esses aspectos.",
+      "processing_time": 2.4024085998535156,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Não sei sinceramente",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto expressa incerteza e não apresenta emoções claras, sendo mais uma afirmação factual do que uma opinião ou sentimento positivo ou negativo.",
+      "processing_time": 2.781177520751953,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Estrutura do campus, mais livros na biblioteca física, RU para alunos que não têm condições de levar comida.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas para melhorias no campus, indicando um desejo de aprimorar a infraestrutura e o apoio aos alunos, o que é um sinal de uma atitude positiva em relação ao ambiente educacional.",
+      "processing_time": 3.0652272701263428,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar estrutura do campus",
+        "Aumentar acervo da biblioteca",
+        "Criar RU para alunos carentes"
+      ]
+    },
+    {
+      "original_text": "Que incluísse um número maior de pessoas.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é uma sugestão factual que não expressa emoções claras, apenas indica a necessidade de incluir mais pessoas.",
+      "processing_time": 1.6979281902313232,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incluir mais participantes"
+      ]
+    },
+    {
+      "original_text": "Trabalhos acadêmicos, que permitam aos estudantes aprender na prática e visitas técnicas",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma visão favorável sobre a aprendizagem prática e a importância das visitas técnicas, indicando uma atitude positiva em relação a métodos de ensino que envolvem a prática.",
+      "processing_time": 2.663632392883301,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incluir mais visitas técnicas",
+        "Aprimorar trabalhos práticos"
+      ]
+    },
+    {
+      "original_text": "Mais bolsas. Uma vez que essas atividades exigem bastante tempo, muitas vezes tendo que abdicar de seus trabalhos para desempenha-las, esse auxílio ajuda o discente a se sustentar.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma necessidade de apoio financeiro para que os estudantes possam se dedicar às atividades de ensino, pesquisa e extensão, o que indica uma valorização dessas iniciativas. A menção de 'ajuda' sugere uma perspectiva positiva em relação ao auxílio financeiro.",
+      "processing_time": 3.469672203063965,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas",
+        "Apoio financeiro para estudantes",
+        "Facilitar dedicação às atividades"
+      ]
+    },
+    {
+      "original_text": "O fortalecimento de uma comunicação de divulgação eficiente, falando dos seus prós.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma visão positiva sobre a comunicação de divulgação, destacando seus benefícios. A menção de 'prós' sugere uma valorização da proposta.",
+      "processing_time": 2.0319018363952637,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Fortalecer comunicação",
+        "Divulgação eficiente",
+        "Focar nos benefícios"
+      ]
+    },
+    {
+      "original_text": "No geral está bom.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto expressa uma avaliação neutra, indicando que a situação é considerada 'boa', mas sem entusiasmo ou críticas. A falta de detalhes impede uma interpretação mais positiva ou negativa.",
+      "processing_time": 2.5755770206451416,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Capacidade de e motivar mais os estudantes",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma intenção positiva de motivar os estudantes, o que indica um sentimento de apoio e incentivo.",
+      "processing_time": 1.6143805980682373,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar motivação dos estudantes"
+      ]
+    },
+    {
+      "original_text": "Uma maior divulgação e incentivo à participação dos estudantes em programas de iniciação científica e de extensão, com flexibilidade de horários e reconhecimento dessas atividades na grade curricular, além de mais atenção as questões de avaliações de certificados",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas para melhorar a participação dos estudantes em programas acadêmicos, o que indica uma perspectiva positiva em relação ao ensino e à pesquisa.",
+      "processing_time": 3.800025224685669,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Divulgação de programas científicos",
+        "Incentivo à participação estudantil",
+        "Flexibilidade de horários",
+        "Reconhecimento curricular",
+        "Atenção a avaliações de certificados"
+      ]
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 1.3729443550109863,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Mais divulgação para os alunos no campus. Como no quadro de avisos.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva para melhorar a comunicação com os alunos, o que indica uma intenção positiva de engajamento e melhoria no ambiente acadêmico.",
+      "processing_time": 2.4140145778656006,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais divulgação para alunos",
+        "Utilizar quadro de avisos"
+      ]
+    },
+    {
+      "original_text": "Uma mudança de Local. Algo totalmente necessário, pois no Polo não há muito o que fazer",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a situação atual, indicando que a mudança de local é necessária devido à falta de atividades no Polo, o que sugere uma crítica ao local atual.",
+      "processing_time": 2.3754355907440186,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mudança de local",
+        "Mais atividades no Polo"
+      ]
+    },
+    {
+      "original_text": "Acho que poderiam anunciar/avisar quando surge uma ou quando está ocorrendo, muitas eu soube que tinha quando aparecia o resultado funal",
+      "sentiment": "negative",
+      "confidence": 0.7,
+      "reasoning": "O texto expressa insatisfação em relação à falta de comunicação sobre eventos, indicando frustração com a situação.",
+      "processing_time": 2.5826261043548584,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Anunciar eventos com antecedência",
+        "Avisar sobre eventos em andamento",
+        "Melhorar comunicação de resultados"
+      ]
+    },
+    {
+      "original_text": "Acho que poderia ter mais incentivo para os alunos participarem de projetos de pesquisa e extensão desde o começo do curso, e que essas atividades fossem mais ligadas às disciplinas. Também ajudaria ter mais divulgação das oportunidades e parcerias com a comunidade, porque assim a gente aprende na prática e já vê a aplicação do que estuda.\nE principalmente a questão de validação dos certificados que não são realizados, isso é péssimo!",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação com a falta de incentivo e validação de certificados, além de sugerir melhorias. A crítica à situação atual é clara.",
+      "processing_time": 4.208103656768799,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais incentivo para projetos",
+        "Atividades ligadas às disciplinas",
+        "Mais divulgação de oportunidades",
+        "Parcerias com a comunidade",
+        "Validação de certificados"
+      ]
+    },
+    {
+      "original_text": "Sugiro unir mais a teoria e prática em projetos que atendam demandas reais da comunidade e gerem impacto social.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma sugestão construtiva que visa melhorar a conexão entre teoria e prática, destacando a importância de atender demandas reais e gerar impacto social, o que reflete uma visão otimista e proativa.",
+      "processing_time": 2.8270599842071533,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Unir teoria e prática",
+        "Atender demandas da comunidade",
+        "Gerar impacto social"
+      ]
+    },
+    {
+      "original_text": "Projetos de extensão q incluíssem mais alunos q não são de Caruaru e tem dificuldades com transportes.",
+      "sentiment": "positive",
+      "confidence": 0.75,
+      "reasoning": "O texto sugere uma melhoria que visa incluir mais alunos em projetos de extensão, o que demonstra uma intenção positiva de ampliar o acesso e a inclusão. A menção de dificuldades com transportes indica uma preocupação com a acessibilidade, reforçando a ideia de que a proposta é benéfica.",
+      "processing_time": 3.295382499694824,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incluir mais alunos de fora",
+        "Melhorar transporte para alunos",
+        "Aumentar projetos de extensão"
+      ]
+    },
+    {
+      "original_text": "A integração pode acontecer por meio de projetos que unam teoria e prática, conectando sala de aula, pesquisa aplicada e atividades com a comunidade.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma visão otimista sobre a integração entre teoria e prática, sugerindo uma abordagem colaborativa que beneficia tanto a educação quanto a comunidade. Isso indica um sentimento positivo em relação às melhorias sugeridas.",
+      "processing_time": 2.973313808441162,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Integrar teoria e prática",
+        "Conectar sala de aula e comunidade",
+        "Desenvolver projetos colaborativos",
+        "Fomentar pesquisa aplicada",
+        "Aumentar atividades comunitárias"
+      ]
+    },
+    {
+      "original_text": "Aplica-las e ofertar as atividades de acordo com o horário dos cursos.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto apresenta uma afirmação factual sobre a aplicação de atividades, sem expressar emoções positivas ou negativas claras.",
+      "processing_time": 1.7166674137115479,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Ofertar atividades conforme horários"
+      ]
+    },
+    {
+      "original_text": "Motivar os alunos",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma intenção positiva de incentivar e engajar os alunos, o que é um sentimento favorável em relação ao ensino.",
+      "processing_time": 2.157442808151245,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incentivar participação",
+        "Criar atividades motivacionais"
+      ]
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Ampliar a divulgação de editais, ofertar mais bolsas e integrar projetos que unam ensino, pesquisa e extensão de forma prática e interdisciplinar.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa sugestões construtivas e positivas para melhorar a integração entre ensino, pesquisa e extensão, indicando uma visão otimista sobre o potencial de colaboração.",
+      "processing_time": 3.822118043899536,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Ampliar divulgação de editais",
+        "Ofertar mais bolsas",
+        "Integrar projetos de forma prática",
+        "Promover interdisciplinaridade",
+        "Fomentar colaboração entre áreas"
+      ]
+    },
+    {
+      "original_text": "Mais oportunidades de bolsa para auxiliar a realização dessas atividades.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão que implica uma melhoria nas oportunidades de bolsa, o que é visto como uma ação positiva para auxiliar atividades acadêmicas.",
+      "processing_time": 2.5057764053344727,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas de estudo",
+        "Apoio a atividades acadêmicas"
+      ]
+    },
+    {
+      "original_text": "Uma Melhor explicação e demonstração de como funciona e como realizar efetivamente essss projetos.",
+      "sentiment": "negative",
+      "confidence": 0.75,
+      "reasoning": "O texto expressa insatisfação com a falta de clareza e demonstração em relação aos projetos, indicando uma crítica à forma como estão sendo apresentados.",
+      "processing_time": 2.925978899002075,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar explicação dos projetos",
+        "Incluir demonstrações práticas",
+        "Oferecer mais detalhes sobre execução"
+      ]
+    },
+    {
+      "original_text": "Oferecimento mais direto de bolsas e programas práticos",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere uma melhoria que pode beneficiar os alunos, indicando uma intenção positiva de facilitar o acesso a bolsas e programas práticos.",
+      "processing_time": 3.142254114151001,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Oferecer mais bolsas",
+        "Criar programas práticos",
+        "Facilitar acesso a oportunidades"
+      ]
+    },
+    {
+      "original_text": "Trazer projetos mais relevantes e proporcionar bolsas de incentivo para os alunos.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma intenção positiva de melhorar a relevância dos projetos e apoiar os alunos com bolsas, indicando um desejo de progresso e incentivo.",
+      "processing_time": 2.35239577293396,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Trazer projetos relevantes",
+        "Proporcionar bolsas de incentivo"
+      ]
+    },
+    {
+      "original_text": "Não respondido",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto 'Não respondido' sugere insatisfação ou frustração, indicando que algo esperado não foi atendido.",
+      "processing_time": 2.3275399208068848,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar comunicação",
+        "Aumentar respostas",
+        "Feedback mais rápido"
+      ]
+    },
+    {
+      "original_text": "Não respondido",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "[CACHED] O texto 'Não respondido' sugere insatisfação ou frustração, indicando que algo esperado não foi atendido.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar comunicação",
+        "Aumentar respostas",
+        "Feedback mais rápido"
+      ]
+    },
+    {
+      "original_text": "Ligação entre os docentes e discentes pois a maioria das coisas sao só pra pessoas próximas e não para todos",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a exclusividade nas relações entre docentes e discentes, indicando que as ações não são inclusivas.",
+      "processing_time": 3.598874092102051,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar a inclusão",
+        "Promover eventos para todos",
+        "Melhorar comunicação entre grupos"
+      ]
+    },
+    {
+      "original_text": "Atividades nas comunidades",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto 'Atividades nas comunidades' é uma frase factual que não expressa emoções claras, sendo mais descritiva do que opinativa. Portanto, é classificado como neutro.",
+      "processing_time": 1.9684290885925293,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Ampliar o acesso a programas e bolsas, já que a demanda é grande para poucas vagas. \nIntegrar o tripé acadêmico mais ainda, de forma que o aluno saiba e tenha acesso a como poder realizar pesquisa, extensão e somar mais ainda no ensino para complementar a sua formação acadêmica. Realizar isso através de exposições, eventos que promovam esses tópicos, podendo até aliar-se parte das coordenações desses 3 com os DA's, por exemplo, que na maioria dos cursos fazem acolhimentos do ingressantes.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa sugestões construtivas e positivas para melhorar o acesso e a integração entre ensino, pesquisa e extensão, demonstrando uma preocupação com a formação acadêmica dos alunos.",
+      "processing_time": 2.8620080947875977,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Ampliar acesso a programas e bolsas",
+        "Integrar ensino, pesquisa e extensão",
+        "Realizar exposições e eventos",
+        "Apoiar coordenações com DA's",
+        "Promover acolhimento de ingressantes"
+      ]
+    },
+    {
+      "original_text": "Monitorias remuneradas, flexibilidade de horários, bolsas que contemplem mais discentes.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas que visam melhorar a situação atual, indicando uma perspectiva positiva em relação a melhorias no ensino e apoio aos discentes.",
+      "processing_time": 3.2009687423706055,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Implementar monitorias remuneradas",
+        "Oferecer flexibilidade de horários",
+        "Criar mais bolsas para discentes"
+      ]
+    },
+    {
+      "original_text": "N/D",
+      "sentiment": "neutral",
+      "confidence": 0.8,
+      "reasoning": "O texto 'N/D' não expressa emoções ou opiniões claras, sendo uma sigla que geralmente indica 'não disponível'. Portanto, é classificado como neutro.",
+      "processing_time": 2.2090818881988525,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Mais materiais para práticas",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere a necessidade de mais materiais, o que indica um desejo de aprimoramento e melhoria nas práticas, refletindo uma atitude positiva em relação ao ensino e à aprendizagem.",
+      "processing_time": 2.1814987659454346,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais materiais",
+        "Aprimorar práticas"
+      ]
+    },
+    {
+      "original_text": "Investimento para a infraestrutura",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é factual e não expressa emoções claras, apenas menciona um aspecto relacionado a investimento em infraestrutura.",
+      "processing_time": 1.8059422969818115,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "investimentos",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto 'investimentos' é uma palavra isolada que não expressa uma emoção clara, sendo mais factual. Não há contexto suficiente para determinar um sentimento positivo ou negativo.",
+      "processing_time": 2.037803888320923,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "não sei informar",
+      "sentiment": "neutral",
+      "confidence": 0.8,
+      "reasoning": "O texto 'não sei informar' não expressa emoções positivas ou negativas, mas sim uma falta de conhecimento ou informação. Portanto, é classificado como neutro.",
+      "processing_time": 2.9062399864196777,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "-",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "O texto fornecido é apenas um traço ('-'), não expressando sentimentos ou emoções claras. Portanto, a classificação é neutra.",
+      "processing_time": 1.8362181186676025,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Melhoras nos campus",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é uma afirmação factual sobre melhorias, sem expressar emoções claras ou opiniões positivas ou negativas.",
+      "processing_time": 2.2599732875823975,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar infraestrutura",
+        "Aprimorar serviços",
+        "Aumentar recursos"
+      ]
+    },
+    {
+      "original_text": "Mais eventos, ideathons, hackathons",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão positiva para a realização de mais eventos, indicando um desejo de engajamento e atividade, o que é um sinal de entusiasmo.",
+      "processing_time": 2.6730165481567383,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais eventos",
+        "Ideathons",
+        "Hackathons"
+      ]
+    },
+    {
+      "original_text": "Mais eventos voltado pra desenvolvimento de skills",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão positiva para a realização de eventos que promovam o desenvolvimento de habilidades, indicando uma expectativa favorável em relação a essa iniciativa.",
+      "processing_time": 3.389385223388672,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais eventos de desenvolvimento de skills"
+      ]
+    },
+    {
+      "original_text": "Materiais pedagógicos e tecnológicos dentro do campus que possam auxiliar mais os alunos, de forma que possa complementar os que já possuem. Apesar de serem ofertados, ainda há uma lacuna a ser preenchida. \nExemplos: mais computadores que possam ser utilizados pelos alunos, cadeiras mais confortáveis, Internet que não perca a conexão fácil e funcione em todo o campus.",
+      "sentiment": "negative",
+      "confidence": 0.75,
+      "reasoning": "O texto expressa insatisfação com a falta de recursos adequados para os alunos, mencionando lacunas que precisam ser preenchidas. A crítica é direcionada à insuficiência de materiais e infraestrutura, o que indica um sentimento negativo.",
+      "processing_time": 3.709678888320923,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais computadores disponíveis",
+        "Cadeiras mais confortáveis",
+        "Melhorar a conexão da Internet",
+        "Recursos pedagógicos adicionais",
+        "Aumentar a oferta de tecnologia"
+      ]
+    },
+    {
+      "original_text": "Nada a declarar.",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "O texto 'Nada a declarar.' é uma afirmação neutra, sem expressar emoções ou opiniões claras. Não há elementos que indiquem satisfação ou insatisfação.",
+      "processing_time": 1.985274314880371,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Mais meios de comunicação.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto 'Mais meios de comunicação' é uma afirmação factual que sugere uma necessidade, mas não expressa emoções claras de satisfação ou insatisfação. Portanto, é classificado como neutro.",
+      "processing_time": 3.3181726932525635,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar canais de comunicação",
+        "Melhorar acesso à informação"
+      ]
+    },
+    {
+      "original_text": "Mais oportunidades de pesquisa e contato com área o mais cedo possível na graduação",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão positiva sobre a importância de oferecer mais oportunidades de pesquisa e contato na graduação, indicando uma visão otimista sobre o desenvolvimento acadêmico.",
+      "processing_time": 2.9488179683685303,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais oportunidades de pesquisa",
+        "Contato precoce com a área",
+        "Integração na graduação"
+      ]
+    },
+    {
+      "original_text": "MELHOR DIVULGAÇÃO E ENGAJAMENTO",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere uma melhoria na divulgação e engajamento, o que implica uma intenção positiva de aprimorar a comunicação e a participação. A escolha de palavras indica um desejo de progresso e envolvimento.",
+      "processing_time": 3.8101725578308105,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar divulgação",
+        "Aumentar engajamento"
+      ]
+    },
+    {
+      "original_text": "Workshops, aulas sobre, etc.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é factual e não expressa emoções claras, apenas menciona atividades relacionadas a workshops e aulas, sem indicar satisfação ou insatisfação.",
+      "processing_time": 1.995664119720459,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Oferecer mais workshops",
+        "Aumentar variedade de aulas"
+      ]
+    },
+    {
+      "original_text": "Por inexperiência do momento, não tenho noção suficiente para categorizar soluções eficientes e eficazes para esse fim.",
+      "sentiment": "negative",
+      "confidence": 0.7,
+      "reasoning": "O texto expressa uma sensação de incerteza e falta de conhecimento, o que indica insatisfação com a própria capacidade de encontrar soluções.",
+      "processing_time": 1.6237833499908447,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Continuar tendo o apoio necessário para a realização deles.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma expectativa positiva em relação ao apoio necessário, indicando satisfação com o suporte recebido.",
+      "processing_time": 2.0667693614959717,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Manter apoio contínuo",
+        "Fortalecer parcerias"
+      ]
+    },
+    {
+      "original_text": "Nada a declarar",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "O texto 'Nada a declarar' é uma afirmação neutra, sem expressar emoções positivas ou negativas. Não há conteúdo que sugira satisfação ou insatisfação.",
+      "processing_time": 1.6156487464904785,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Mais informações concretas",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto 'Mais informações concretas' é uma solicitação que não expressa emoções positivas ou negativas, mas sim um desejo de obter mais dados ou esclarecimentos. Portanto, é classificado como neutro.",
+      "processing_time": 4.84976601600647,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Fornecer dados específicos",
+        "Aumentar transparência",
+        "Detalhar processos"
+      ]
+    },
+    {
+      "original_text": "Mais iniciações científicas, mais projetos sendo divulgados com seleção, geralmente são selecionados alunos por proximidade e não interesse/entrevista.\nMais bolsas, por que grande maioria dos programas que tem são voluntários, bolsas são uma forma de incentivo.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a seleção de alunos e a falta de bolsas, indicando frustração com o sistema atual de iniciações científicas e projetos.",
+      "processing_time": 2.580780267715454,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar critérios de seleção",
+        "Oferecer mais bolsas",
+        "Divulgar mais projetos",
+        "Incentivar participação de alunos",
+        "Rever programas voluntários"
+      ]
+    },
+    {
+      "original_text": "Oferecer mais auxílios, pois os estudantes necessitam.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma preocupação positiva em relação ao apoio aos estudantes, sugerindo que mais auxílios são necessários para atender suas necessidades.",
+      "processing_time": 2.52034068107605,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Oferecer mais auxílios",
+        "Apoio aos estudantes",
+        "Melhorar recursos disponíveis"
+      ]
+    },
+    {
+      "original_text": "Acredito que a formulação das atividades de ensino, pesquisa e extensão de forma mais contínua com os estudantes poderia qualificar o processo. Tem algumas disciplinas que são feitas como que apenas para constar, e que não tem a devida relevância ou execução, a exemplo disso, a curricularização da extensão, que é feita de modo obrigatório e sem atividade relevante e instruída adequadamente. Além disso, nos primeiros períodos é difícil que se apliquem muitas atividades integradoras, mas ainda assim deveria ser voltado à formação mais básica do aluno, organizando o currículo de forma crescente. Que sentido faz um aluno estar desde os primeiros períodos em uma unidade de saúde sem ter conhecimento algum de biossegurança e ética? As atividades são importantes, mas apenas se forem bem estruturadas e planejadas. Fazer por fazer, não tem sentido.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação com a forma como as atividades de ensino, pesquisa e extensão são realizadas, destacando a falta de relevância e planejamento adequado. O autor critica a obrigatoriedade de certas disciplinas sem a devida execução e relevância, o que indica um sentimento negativo em relação ao sistema educacional.",
+      "processing_time": 4.544037818908691,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar a relevância das disciplinas",
+        "Planejar atividades integradoras",
+        "Incluir biossegurança no currículo",
+        "Reestruturar a curricularização da extensão",
+        "Focar na formação básica do aluno"
+      ]
+    },
+    {
+      "original_text": "Maior investimento para as pesquisas",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão que implica um desejo de melhoria e avanço nas pesquisas, o que é um indicativo de um sentimento positivo em relação ao investimento em pesquisa.",
+      "processing_time": 2.402538537979126,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar investimento em pesquisa"
+      ]
+    },
+    {
+      "original_text": "Maior apoio da faculdade para com atividades extracurriculares.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma solicitação de maior apoio, o que indica uma expectativa positiva em relação à faculdade e suas atividades. A frase sugere que o autor valoriza as atividades extracurriculares e acredita que um maior apoio seria benéfico.",
+      "processing_time": 2.5033090114593506,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Apoio para atividades extracurriculares"
+      ]
+    },
+    {
+      "original_text": "Mais informações a respeito, divulgação de formas de participação.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é factual e solicita informações adicionais sem expressar emoções positivas ou negativas claras. A menção de 'divulgação de formas de participação' sugere um desejo de mais clareza, mas não indica satisfação ou insatisfação.",
+      "processing_time": 3.022911787033081,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais informações",
+        "Divulgação de participação"
+      ]
+    },
+    {
+      "original_text": "É necessário mais bolsas de iniciaçãocientífica para incentivar pesquisa e extensão. As que temos hoje são muito limitadas e ações que deveriam receber bolsas, como monitorias e atividades de extensão, muitas vezes, não recebem.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação com a quantidade limitada de bolsas de iniciação científica, indicando uma crítica à situação atual e a necessidade de melhorias. A frustração é evidente ao mencionar que ações importantes não estão sendo adequadamente apoiadas.",
+      "processing_time": 4.237616539001465,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar número de bolsas",
+        "Incentivar monitorias",
+        "Apoiar atividades de extensão",
+        "Melhorar financiamento para pesquisa",
+        "Rever critérios de concessão"
+      ]
+    },
+    {
+      "original_text": "B",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é muito curto e não expressa emoções claras, sendo apenas uma letra. Portanto, a classificação é neutra.",
+      "processing_time": 1.7819697856903076,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "RU",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto 'RU' é muito curto e não expressa emoções claras, sendo apenas uma sigla ou abreviação. Portanto, a análise indica um sentimento neutro.",
+      "processing_time": 2.5172905921936035,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": ",",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "O texto é apenas uma vírgula, não expressando qualquer sentimento ou emoção clara.",
+      "processing_time": 1.470355749130249,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Uma acessibilidade mais adequada, e a implementação de um R.U.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere melhorias que podem beneficiar a acessibilidade e a implementação de um restaurante universitário, indicando uma intenção positiva de aprimorar as condições existentes.",
+      "processing_time": 2.6051511764526367,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar acessibilidade",
+        "Implementar restaurante universitário"
+      ]
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Mais ofertas de bolsas para alunos de ampla concorrência e maior divulgação em redes sociais.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva que visa melhorar a oferta de bolsas e a divulgação, indicando uma intenção positiva em beneficiar os alunos.",
+      "processing_time": 2.7092082500457764,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas para ampla concorrência",
+        "Maior divulgação em redes sociais"
+      ]
+    },
+    {
+      "original_text": "A faculdade em si promove muita extensão e pesquisa, mas sinto falta disso vindo de alguns professores.",
+      "sentiment": "negative",
+      "confidence": 0.75,
+      "reasoning": "O texto expressa insatisfação em relação à falta de envolvimento de alguns professores em atividades de extensão e pesquisa, indicando uma crítica ao desempenho deles.",
+      "processing_time": 2.4247055053710938,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Maior envolvimento dos professores",
+        "Aumentar atividades de extensão",
+        "Fomentar pesquisa entre docentes"
+      ]
+    },
+    {
+      "original_text": "Estrutura física",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto 'Estrutura física' é uma expressão factual que não demonstra emoções claras, sendo uma descrição de um aspecto que pode ser analisado, mas não expressa satisfação ou insatisfação.",
+      "processing_time": 2.6796159744262695,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "mais bolsas com apoio financeiro, principalmente aos estudantes da área de tecnologia",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão positiva para melhorar o apoio financeiro a estudantes, indicando uma preocupação com o desenvolvimento e a valorização da educação na área de tecnologia.",
+      "processing_time": 2.6498117446899414,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas de estudo",
+        "Apoio financeiro para tecnologia"
+      ]
+    },
+    {
+      "original_text": "Estrutura física da universidade",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é uma afirmação factual sobre a estrutura física da universidade, sem expressar emoções ou opiniões claras.",
+      "processing_time": 2.2166366577148438,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Estrutura física",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "[CACHED] O texto 'Estrutura física' é uma expressão factual que não demonstra emoções claras, sendo uma descrição de um aspecto que pode ser analisado, mas não expressa satisfação ou insatisfação.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Estímulo maior a projetos e parcerias com a iniciativa privada",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão que implica um desejo de melhoria e progresso, indicando uma atitude positiva em relação ao estímulo a projetos e parcerias.",
+      "processing_time": 3.6695542335510254,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar parcerias com a iniciativa privada",
+        "Estimular projetos inovadores",
+        "Fomentar colaborações externas"
+      ]
+    },
+    {
+      "original_text": "Mais incentivos em áreas mais diversas em torno do curso, tanto incentivo dos servidores, quanto incentivos financeiros.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva para melhorar o curso, indicando uma visão otimista sobre a possibilidade de incentivos que podem beneficiar a comunidade acadêmica.",
+      "processing_time": 2.7659287452697754,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incentivos financeiros",
+        "Incentivos dos servidores",
+        "Diversificação de áreas",
+        "Apoio ao curso",
+        "Melhorar engajamento"
+      ]
+    },
+    {
+      "original_text": "A ampliação das políticas públicas de permanência na universidade.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma intenção positiva ao mencionar a ampliação de políticas públicas, sugerindo um foco em melhorias e apoio aos estudantes na universidade.",
+      "processing_time": 2.2782695293426514,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Ampliar políticas de permanência",
+        "Apoio aos estudantes"
+      ]
+    },
+    {
+      "original_text": "nenhuma",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "O texto 'nenhuma' é uma palavra isolada que não expressa emoções claras, sendo factual e sem conotação positiva ou negativa.",
+      "processing_time": 1.675760269165039,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Acho os professores muito receptivos",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "O texto expressa uma opinião favorável sobre os professores, destacando sua receptividade, o que indica satisfação e uma emoção positiva.",
+      "processing_time": 1.687272071838379,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Mais bolsas e investimentos",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão que implica um desejo de melhoria e investimento, o que é geralmente visto como uma intenção positiva para o desenvolvimento de bolsas e recursos.",
+      "processing_time": 2.9915196895599365,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas",
+        "Mais investimentos"
+      ]
+    },
+    {
+      "original_text": "Mais incentivo",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto 'Mais incentivo' sugere uma demanda por apoio e motivação, o que indica uma perspectiva positiva em relação a melhorias e avanços. A expressão é curta, mas transmite um desejo de progresso.",
+      "processing_time": 2.743509292602539,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar incentivos",
+        "Fomentar a pesquisa",
+        "Apoiar a extensão"
+      ]
+    },
+    {
+      "original_text": "Fóruns de informações que trouxessem, explicitamente, como realizar esses trabalhos científicos, principalmente, para as turmas de 1, 2 e 3 período.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva para melhorar o ensino, indicando um desejo de facilitar o acesso à informação sobre trabalhos científicos, o que é uma abordagem positiva.",
+      "processing_time": 3.313987970352173,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Criar fóruns de informações",
+        "Instruções para trabalhos científicos",
+        "Focar em turmas iniciais"
+      ]
+    },
+    {
+      "original_text": "Acho que em relação a isso a faculdade promove muito estímulo à projetos de extensão, pesquisas e etc",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma opinião favorável sobre a faculdade, destacando o estímulo a projetos de extensão e pesquisas, o que indica satisfação com as iniciativas da instituição.",
+      "processing_time": 2.4428422451019287,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Continuar promovendo projetos",
+        "Aumentar apoio a pesquisas"
+      ]
+    },
+    {
+      "original_text": "Acho que o principal seria a questão da infraestrutura da universidade que ainda funciona em espaço alugado (e pequeno), mas o governo do estado anunciou que irá construir a nova universidade, o que é ótimo. Haverá mais ensino, pesquisa e extensão.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma visão otimista sobre a construção de uma nova universidade, destacando que isso trará melhorias para o ensino, pesquisa e extensão. A menção de que a situação atual é insatisfatória, mas que há uma solução em andamento, contribui para um sentimento positivo geral.",
+      "processing_time": 3.527078866958618,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar infraestrutura",
+        "Construir nova universidade",
+        "Aumentar espaço para atividades",
+        "Focar em ensino e pesquisa",
+        "Expandir programas de extensão"
+      ]
+    },
+    {
+      "original_text": "Acredito que poderiam ser ofertados bolsas para monitorias e na FOP poderia ser incluído laboratório com microscópios para integrar o ensino de patologia e microbiologia",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas que visam melhorar a oferta de bolsas e a infraestrutura educacional, indicando uma atitude positiva em relação ao ensino e à pesquisa.",
+      "processing_time": 3.1606857776641846,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Ofertar bolsas para monitorias",
+        "Incluir laboratório com microscópios",
+        "Integrar ensino de patologia e microbiologia"
+      ]
+    },
+    {
+      "original_text": "Um aumento do número de bolsas, para que possa integrar ainda mais estudantes baixa renda.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma sugestão positiva que visa integrar mais estudantes de baixa renda, indicando uma preocupação com a inclusão e a melhoria do acesso à educação.",
+      "processing_time": 2.5877840518951416,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar número de bolsas",
+        "Integrar mais estudantes",
+        "Focar em baixa renda"
+      ]
+    },
+    {
+      "original_text": "Que todas as atividades sejam apresentadas com mais clareza aos alunos que chegam a universidade sem entender nada do assunto, e acabam perdendo a oportunidade de participar de projetos, por falta de conhecimento.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação com a falta de clareza nas atividades, o que leva os alunos a perderem oportunidades. Isso indica uma crítica ao sistema atual.",
+      "processing_time": 3.235679864883423,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar clareza nas atividades",
+        "Oferecer orientação aos novos alunos",
+        "Criar projetos introdutórios",
+        "Facilitar acesso à informação",
+        "Promover workshops de integração"
+      ]
+    },
+    {
+      "original_text": "Incluir novas bolsas e mais oportunidades de vagas para os projetos.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva que visa melhorar a oferta de bolsas e oportunidades, indicando uma intenção positiva em relação ao desenvolvimento de projetos.",
+      "processing_time": 2.25140643119812,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incluir novas bolsas",
+        "Mais oportunidades de vagas",
+        "Aprimorar projetos"
+      ]
+    },
+    {
+      "original_text": "•Acessibilidade para deficientes\n•Melhoria nas copas dos estudantes (mais microondas)\n• Mais mesas no refeitório \n• Restaurante Universitário \n• Espaços de convivência \n• Laboratórios para aulas práticas",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto apresenta sugestões construtivas e melhorias que visam beneficiar a comunidade acadêmica, indicando uma intenção positiva em relação ao ambiente educacional.",
+      "processing_time": 3.2242624759674072,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Acessibilidade para deficientes",
+        "Mais microondas nas copas",
+        "Mais mesas no refeitório",
+        "Melhorar o Restaurante Universitário",
+        "Criar espaços de convivência"
+      ]
+    },
+    {
+      "original_text": "Quantidades maiores de bolsa de pesquisa e extensão.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere uma melhoria que pode beneficiar a pesquisa e extensão, indicando uma expectativa positiva em relação ao aumento de recursos.",
+      "processing_time": 2.655303955078125,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar bolsas de pesquisa",
+        "Aumentar bolsas de extensão"
+      ]
+    },
+    {
+      "original_text": "Acredito que a faculdade carece de mais incentivos na parte científica e também precisa ofertar (e divulgar) projetos de extensões, monitorias que ofereçam bolsas.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação em relação à falta de incentivos e divulgação de projetos na faculdade, indicando uma crítica à situação atual.",
+      "processing_time": 2.2678070068359375,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais incentivos para pesquisa",
+        "Divulgar projetos de extensão",
+        "Oferecer bolsas para monitorias"
+      ]
+    },
+    {
+      "original_text": "Acredito que uma criação de cantina na FOP, pois com a falta de acesso a alimentação ao redor do novo prédio a saúde dos alunos é prejudicada e a qualidade do aprendizado diminuída",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa preocupação com a saúde dos alunos e a qualidade do aprendizado devido à falta de alimentação, indicando insatisfação com a situação atual.",
+      "processing_time": 3.024852752685547,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Criar cantina na FOP",
+        "Melhorar acesso à alimentação",
+        "Aumentar qualidade do aprendizado",
+        "Garantir saúde dos alunos"
+      ]
+    },
+    {
+      "original_text": "O aumento de bolsas, visando incentivar os discentes.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma intenção positiva de incentivar os discentes através do aumento de bolsas, o que sugere apoio e valorização da educação.",
+      "processing_time": 2.3001253604888916,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar número de bolsas",
+        "Incentivar discentes"
+      ]
+    },
+    {
+      "original_text": "Introduzir mais bolsas de auxílio durante a graduação, além de introduzir de forma mais efetiva os projetos de extensão. É necessário, também, introduzir as pesquisas, inciciacoea científicas e as instruções de como proceder nesses âmbitos aos discentes.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas para melhorar o ensino e a pesquisa, indicando um desejo de progresso e apoio aos alunos, o que reflete um sentimento positivo em relação ao desenvolvimento acadêmico.",
+      "processing_time": 3.335561990737915,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas de auxílio",
+        "Projetos de extensão efetivos",
+        "Instruções para pesquisas",
+        "Iniciação científica",
+        "Apoio aos discentes"
+      ]
+    },
+    {
+      "original_text": "Não sei.Acho que já está ótimo.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto expressa uma incerteza e uma avaliação neutra, sem emoções claras de satisfação ou insatisfação. A frase 'já está ótimo' pode ser interpretada como uma aprovação, mas a dúvida inicial 'Não sei' diminui essa certeza.",
+      "processing_time": 2.6509196758270264,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "É necessário que haja mais vagas ofertadas para os projetos, mais bolsas remuneradas. Mais oportunidades de iniciação científica.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a falta de vagas e oportunidades, indicando uma crítica à situação atual.",
+      "processing_time": 2.2463624477386475,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais vagas para projetos",
+        "Mais bolsas remuneradas",
+        "Mais oportunidades de iniciação científica"
+      ]
+    },
+    {
+      "original_text": "Gostaria que tivesse mais bolsas remuneradas para pessoas não cotista, para ajudar na acessibilidade",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva que visa melhorar a acessibilidade, o que indica uma intenção positiva em relação ao tema abordado.",
+      "processing_time": 2.12628436088562,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas remuneradas",
+        "Acessibilidade para não cotistas"
+      ]
+    },
+    {
+      "original_text": "Acredito que somos bem informados e os docentes são bem solícitos para contribuir com os alunos para realização de atividades de pesquisas e afins.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma opinião favorável sobre a informação e a disposição dos docentes em ajudar os alunos, indicando satisfação com o suporte recebido.",
+      "processing_time": 2.095477342605591,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Pra mim está bom!",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "O texto expressa uma opinião favorável, indicando satisfação com a situação atual.",
+      "processing_time": 1.999093770980835,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Criar um site, para os estudantes conseguirem se inscrever e analisar os projetos de extensão que ja existem. Fica meio vago, os projetos são limitados e parecem ser poucos.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a falta de clareza e a limitação dos projetos de extensão, indicando uma crítica à situação atual.",
+      "processing_time": 2.668499231338501,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Criar site para inscrições",
+        "Listar projetos de extensão",
+        "Aumentar número de projetos",
+        "Melhorar clareza das informações"
+      ]
+    },
+    {
+      "original_text": "Acredito que deveria ter deveria ter mais bolsas remuneradas.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma insatisfação em relação à quantidade de bolsas remuneradas, indicando uma crítica à situação atual.",
+      "processing_time": 1.9311211109161377,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar número de bolsas",
+        "Melhorar condições de bolsas"
+      ]
+    },
+    {
+      "original_text": "Uma espécie de cartilha para explicar sobre o funcionamento dos projetos, como desenvolver pesquisas, escrever artigos e participar dos eventos",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto apresenta uma descrição factual sobre a criação de uma cartilha, sem expressar emoções positivas ou negativas. A linguagem é objetiva e informativa.",
+      "processing_time": 2.9938106536865234,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Criar cartilha explicativa",
+        "Incluir exemplos de projetos",
+        "Orientar sobre escrita de artigos",
+        "Detalhar participação em eventos"
+      ]
+    },
+    {
+      "original_text": "Promoção de mais bolsas remuneradas para permitir maior acessibilidade.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma sugestão que visa aumentar a acessibilidade, o que é uma proposta positiva e benéfica para a comunidade.",
+      "processing_time": 3.680880069732666,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas remuneradas",
+        "Aumentar acessibilidade"
+      ]
+    },
+    {
+      "original_text": "Oferecimento de mais bolsas remuneradas para facilitar a integração dos alunos nas pesquisas.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma sugestão que visa melhorar a integração dos alunos nas pesquisas, o que é uma proposta positiva e benéfica para o ambiente acadêmico.",
+      "processing_time": 2.5235090255737305,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas remuneradas",
+        "Facilitar integração dos alunos",
+        "Apoio a pesquisas"
+      ]
+    },
+    {
+      "original_text": "Deveria ter mais orientações para os estudantes dos períodos iniciais.",
+      "sentiment": "negative",
+      "confidence": 0.75,
+      "reasoning": "O texto expressa uma crítica sobre a falta de orientações para estudantes, indicando insatisfação com a situação atual.",
+      "processing_time": 2.3599884510040283,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais orientações para estudantes",
+        "Apoio aos períodos iniciais"
+      ]
+    },
+    {
+      "original_text": "Gostaria que a Universidade informasse melhor sobre a importância da realização de atividades acadêmica(projeto de extensão, artigos e etc), para que possa incentivar os estudantes a se inserir nesse meio acadêmica. Os professores desempenham um papel crucial para poder informa e auxiliar,entretanto isso não está sendo realizado de maneira ideial.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a falta de informações e apoio por parte da universidade e dos professores em relação às atividades acadêmicas. A crítica à maneira como isso está sendo realizado indica um sentimento negativo.",
+      "processing_time": 3.0205986499786377,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar comunicação sobre atividades acadêmicas",
+        "Incentivar participação em projetos de extensão",
+        "Apoiar professores na orientação aos alunos",
+        "Realizar workshops sobre importância acadêmica",
+        "Criar campanhas de incentivo à pesquisa"
+      ]
+    },
+    {
+      "original_text": "Acessibilidade como elevadores, guardas para garantir a segurança no campus, mais bolsas para que os alunos permaneçam no ensino superior, mais professores dispostos a incentivar à pesquisa e a extensão, um restaurante universitário para todos do campus.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas e positivas para melhorias no campus, indicando um desejo de progresso e apoio aos alunos, o que reflete um sentimento otimista.",
+      "processing_time": 3.500121593475342,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar acessibilidade",
+        "Garantir segurança no campus",
+        "Oferecer mais bolsas",
+        "Incentivar pesquisa e extensão",
+        "Criar restaurante universitário"
+      ]
+    },
+    {
+      "original_text": "Já acho muito bom,mas uma sugestão seria sempre fazer feiras apresentando os projetos de extensão",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma opinião positiva sobre a situação atual, mencionando que já é 'muito bom', mas também sugere uma melhoria, o que indica um tom construtivo e otimista.",
+      "processing_time": 3.158374547958374,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Fazer feiras de projetos de extensão"
+      ]
+    },
+    {
+      "original_text": "Incentivar iniciação científica já nos primeiros períodos, com orientação próxima e clara para que os estudantes vejam a pesquisa como parte natural da graduação.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma proposta positiva para incentivar a pesquisa entre os estudantes, destacando a importância da orientação e da integração da pesquisa na graduação.",
+      "processing_time": 3.9790468215942383,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Incentivar iniciação científica",
+        "Orientação próxima e clara",
+        "Integrar pesquisa na graduação"
+      ]
+    },
+    {
+      "original_text": "Cadeira confortáveis e tecnologias atualizadas (Internet, computadores, etc).",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma opinião favorável sobre as condições de conforto e tecnologia, indicando satisfação com as cadeiras e a infraestrutura disponível.",
+      "processing_time": 4.144718408584595,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Cadeiras confortáveis",
+        "Tecnologias atualizadas",
+        "Melhorar infraestrutura"
+      ]
+    },
+    {
+      "original_text": "Reformulação do currículo, oportunizar maiores projetos de pesquisa nos contra turnos das turmas (ex. Manhã e tarde, na mesma proporção)",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere melhorias e oportunidades de desenvolvimento, indicando uma visão otimista sobre a reformulação do currículo e a ampliação de projetos de pesquisa, o que reflete um sentimento positivo em relação ao futuro da educação.",
+      "processing_time": 3.3984158039093018,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Reformulação do currículo",
+        "Projetos de pesquisa ampliados",
+        "Oportunidades em contra turnos"
+      ]
+    },
+    {
+      "original_text": "Uma oferta mais ampla de cursos, projetos de extensão e grupos de estudos que fossem no sábado ou até mesmo a noite, visando a inclusão dos discentes que trabalham e estudam e precisam concluir as horas complementares.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma sugestão construtiva e positiva para melhorar a oferta de cursos e projetos, visando a inclusão de discentes que têm dificuldades de horários. A proposta é clara e demonstra preocupação com a acessibilidade e a formação dos alunos.",
+      "processing_time": 3.723440170288086,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Oferecer cursos aos sábados",
+        "Criar projetos de extensão noturnos",
+        "Formar grupos de estudos",
+        "Aumentar a inclusão de discentes",
+        "Facilitar horas complementares"
+      ]
+    },
+    {
+      "original_text": "Mais divulgação e reconhecimento institucional",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão que implica um desejo de melhoria e valorização, o que é um indicativo de uma perspectiva positiva em relação à instituição.",
+      "processing_time": 1.946725606918335,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar divulgação",
+        "Reconhecimento institucional"
+      ]
+    },
+    {
+      "original_text": "Está tudo ótimo.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "O texto expressa uma avaliação positiva clara com a frase 'Está tudo ótimo', indicando satisfação.",
+      "processing_time": 1.5086870193481445,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Seria bom saber mais sobre projetos anteriores.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto expressa um desejo de informação, mas não demonstra emoções positivas ou negativas claras. A solicitação é factual e objetiva.",
+      "processing_time": 1.8283348083496094,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais informações sobre projetos anteriores"
+      ]
+    },
+    {
+      "original_text": "Horários mais variados para as atividades, apoio com transporte e alimentação",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere melhorias que podem beneficiar os participantes, indicando uma intenção positiva em relação ao ensino e à extensão.",
+      "processing_time": 1.9351317882537842,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Horários mais variados",
+        "Apoio com transporte",
+        "Apoio com alimentação"
+      ]
+    },
+    {
+      "original_text": "Uma estrutura física mais adequada aos discentes e mais quantidade de bolsas de qualidade.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva para melhorias, indicando uma preocupação com a qualidade do ensino e a infraestrutura, o que reflete um desejo positivo de aprimoramento.",
+      "processing_time": 2.412297248840332,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar infraestrutura física",
+        "Aumentar quantidade de bolsas",
+        "Garantir qualidade das bolsas"
+      ]
+    },
+    {
+      "original_text": "Realização de oficinas introdutórias sobre esses temas e explicações básicas sobre como proceder com os processos burocráticos. Isso tende a informar e facilitar o acesso dos alunos a outros métodos de formação acadêmica fora da sala de aula.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma intenção positiva de informar e facilitar o acesso dos alunos a métodos de formação acadêmica, o que indica uma abordagem construtiva e benéfica.",
+      "processing_time": 2.497408151626587,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Realizar oficinas introdutórias",
+        "Explicar processos burocráticos",
+        "Facilitar acesso à formação acadêmica",
+        "Promover métodos fora da sala de aula"
+      ]
+    },
+    {
+      "original_text": "Para uma interação mais rápido ou eficiente para que novos \"alunos\" possam interagir com novas pessoas e semelhantes, poderia ser fazendo uma auto-descrição dos gostos pessoas, para que se possa fazer grupos de encontro para não só se interagir mais estimular os membros do grupo.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere uma melhoria que visa facilitar a interação entre alunos, o que demonstra uma intenção positiva de promover conexões e engajamento. A proposta de auto-descrição dos gostos pessoais indica um desejo de criar um ambiente mais colaborativo e amigável.",
+      "processing_time": 3.8695895671844482,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Facilitar interação entre alunos",
+        "Criar grupos de encontro",
+        "Estimular membros do grupo",
+        "Auto-descrição de gostos pessoais",
+        "Promover conexões sociais"
+      ]
+    },
+    {
+      "original_text": "Mais ações que mostrem estas extensões e grupos de pesquisa para os estudantes e que tragam uma pauta mais social, assuntos sobre minorias",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma solicitação para ações que promovam a inclusão e a visibilidade de grupos de pesquisa, o que indica uma intenção positiva de melhorar a interação social e acadêmica.",
+      "processing_time": 3.5337679386138916,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mostrar grupos de pesquisa",
+        "Incluir pautas sociais",
+        "Abordar assuntos sobre minorias",
+        "Aumentar ações de extensão",
+        "Promover mais interações estudantis"
+      ]
+    },
+    {
+      "original_text": "Melhoria da estrutura física, principalmente dos laboratórios e a inserção de quadras no campus",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva para melhorias na infraestrutura, o que indica uma intenção positiva em relação ao desenvolvimento do campus.",
+      "processing_time": 2.710369825363159,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar estrutura física",
+        "Atualizar laboratórios",
+        "Inserir quadras no campus"
+      ]
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Apresentar de maneira mais clara e objetiva como esses pilares se interligam. Desenvolver ações e atividades com mais intencionalidade. Talvez atribuir um cargo que o seu principal papel seja buscar essa conexão.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto sugere melhorias e ações com uma abordagem construtiva, indicando um desejo de aprimorar a interligação entre os pilares mencionados. A proposta de atribuir um cargo específico para essa função demonstra uma intenção positiva de organização e eficiência.",
+      "processing_time": 4.826510906219482,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Apresentar pilares de forma clara",
+        "Desenvolver ações intencionais",
+        "Criar cargo para buscar conexões"
+      ]
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Sou estudante da pós-graduação. Nesse contexto, acredito que conseguir integrar alguns projetos de investigação, buscar ter parcerias com instituições esportivas, pode facilitar esse diálogo com a sociedade civil através de investigações.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma visão otimista sobre a integração de projetos de investigação e parcerias, sugerindo um desejo de colaboração e diálogo com a sociedade civil, o que indica um sentimento positivo.",
+      "processing_time": 3.2468745708465576,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Integrar projetos de investigação",
+        "Buscar parcerias com instituições",
+        "Facilitar diálogo com a sociedade civil"
+      ]
+    },
+    {
+      "original_text": "Mais apoio e acolhimento aos estudantes com dificuldades de acompanhar as disciplinas. Principalmente para estudantes portadores de TDAH",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma preocupação positiva em relação ao apoio aos estudantes, especialmente aqueles com dificuldades, o que indica uma intenção de melhoria e acolhimento.",
+      "processing_time": 3.0573196411132812,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Apoio a estudantes com TDAH",
+        "Acolhimento nas disciplinas",
+        "Programas de tutoria",
+        "Treinamento para professores",
+        "Recursos adicionais de aprendizagem"
+      ]
+    },
+    {
+      "original_text": "Creio que mais cursos seriam ótimos",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma opinião favorável sobre a oferta de cursos, indicando que a pessoa acredita que mais cursos seriam benéficos, o que reflete uma atitude positiva.",
+      "processing_time": 2.110851526260376,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Adicionar mais cursos"
+      ]
+    },
+    {
+      "original_text": "Professores mais engajados e mais bolsas com flexibilidade de acumular com salário, pois, ninguém vive de bolsa",
+      "sentiment": "negative",
+      "confidence": 0.75,
+      "reasoning": "O texto expressa insatisfação com a situação atual dos professores, mencionando a falta de engajamento e a inadequação das bolsas, o que indica uma crítica à realidade enfrentada.",
+      "processing_time": 2.6160709857940674,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar engajamento dos professores",
+        "Oferecer mais bolsas",
+        "Permitir acumulação de bolsas com salário"
+      ]
+    },
+    {
+      "original_text": "Nenhuma",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto 'nenhuma' é uma palavra isolada que não expressa emoções claras, sendo factual e sem conotação positiva ou negativa.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "..",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é muito curto e não expressa emoções claras, apenas menciona temas de melhorias. Portanto, a classificação é neutra.",
+      "processing_time": 1.7925419807434082,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Apresentar o que são esses três pilares para os alunos novatos do 1 período, mostrar algumas linhas de pesquisas e projetos. Na aula de introdução a engenharia seria ótimo.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão construtiva e positiva sobre como apresentar os pilares do ensino, pesquisa e extensão aos alunos novatos, indicando um desejo de melhorar a experiência educacional.",
+      "processing_time": 2.876941680908203,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Apresentar pilares do ensino",
+        "Mostrar linhas de pesquisa",
+        "Incluir projetos na aula",
+        "Melhorar introdução a engenharia"
+      ]
+    },
+    {
+      "original_text": "Maior conexão entre teoria e prática, com projetos que unam ensino, pesquisa e extensão. Mais incentivo para os alunos participarem desde cedo.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma visão otimista sobre a integração entre teoria e prática, além de incentivar a participação dos alunos, o que reflete um sentimento positivo em relação às melhorias sugeridas.",
+      "processing_time": 3.511317491531372,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Conectar teoria e prática",
+        "Projetos integrados",
+        "Incentivar participação dos alunos",
+        "Fomentar pesquisa e extensão",
+        "Aumentar colaboração entre áreas"
+      ]
+    },
+    {
+      "original_text": "Maior disponibilidade na grade horária.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto apresenta uma sugestão factual sobre a grade horária, sem expressar emoções positivas ou negativas claras.",
+      "processing_time": 2.450155735015869,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar disponibilidade de horários"
+      ]
+    },
+    {
+      "original_text": "Maior oferta no número de bolsas, e que seja realizada o quanto antes a reforma no bloco A do Campus Petrolina, afinal estamos sem acesso aos laboratórios que eram utilizados para a realização de pesquisas.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação com a falta de acesso aos laboratórios e a necessidade urgente de reformas, indicando uma crítica à situação atual.",
+      "processing_time": 3.4419705867767334,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar número de bolsas",
+        "Realizar reforma no bloco A",
+        "Melhorar acesso aos laboratórios"
+      ]
+    },
+    {
+      "original_text": "Mais bolsas, mais laboratórios, mais meios de transportes da universidade que possibilitam a excussão das atividades externas.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa um desejo por melhorias que podem beneficiar a comunidade acadêmica, indicando uma perspectiva otimista sobre o futuro das atividades externas da universidade.",
+      "processing_time": 2.4335739612579346,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas",
+        "Mais laboratórios",
+        "Mais meios de transporte",
+        "Apoio a atividades externas",
+        "Melhorar infraestrutura"
+      ]
+    },
+    {
+      "original_text": "O CISAM SER ENTENDIDO COMO COMPLEXO DE FATO",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto apresenta uma afirmação factual sem expressar emoções claras, o que indica um sentimento neutro. A frase sugere uma necessidade de compreensão, mas não transmite satisfação ou insatisfação.",
+      "processing_time": 2.457069158554077,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": ".",
+      "sentiment": "neutral",
+      "confidence": 0.9,
+      "reasoning": "[CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clara.",
+      "processing_time": 0.001,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Laboratórios de Geologia, Geoprocessamento e Análises para acesso à todos.",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto apresenta uma descrição factual sobre laboratórios, sem expressar emoções positivas ou negativas claras. A linguagem é objetiva e informativa.",
+      "processing_time": 1.6902978420257568,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Maior informação sobre os editais que foram publicados para que os alunos possam ter conhecimento. Explicações sobre o que cada edital almeja e o que é. E obviamente mais bolsas, pois estão baixissimas o que ameniza as participações dos estudantes.",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa insatisfação com a falta de informações sobre editais e a escassez de bolsas, indicando frustração com a situação atual.",
+      "processing_time": 3.218432664871216,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais informações sobre editais",
+        "Explicações detalhadas dos editais",
+        "Aumentar número de bolsas",
+        "Facilitar participação dos estudantes",
+        "Melhorar comunicação com alunos"
+      ]
+    },
+    {
+      "original_text": "Ampliar o financiamento das atividades de campo e ampliar o financiamento de bolsas para pesquisa e extensão",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma proposta de melhoria que visa aumentar o financiamento, o que é geralmente visto como uma ação positiva para o desenvolvimento de atividades de campo, pesquisa e extensão.",
+      "processing_time": 2.5955278873443604,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Ampliar financiamento de atividades de campo",
+        "Aumentar bolsas para pesquisa",
+        "Investir em extensão universitária"
+      ]
+    },
+    {
+      "original_text": "Em primeiro lugar, a adequação física para pessoas PCD. Eu passei 1 ano e meio solicitando a adaptação da sala de atendimento com COMPUTADORES E IMPRESSSÃO, passei para o coordenador da minha residencia, propus adequação de laudos e receitas... Como não obtinha retorno, porém dores diárias, acabei entrando em um quadro de ansiedade e depressão, não recebendo apoio da maioria dos preceoptores, que reclamavam por escrever devagar ( minha deficiencia é no braço direito e sou destra, a deficiencia ocorreu após um tiro no braço), onde diziam que minha deficiÊncia não me tornava café com leite e que a renovação de 16 receitas + escrita em prontuário + solicitação de exames a mais para 1 paciente, sendo que tinham mais 14 esperando, era para deixar a dor de lado e seguir em frente. Algo que nem é coerente que profissionais da área de neuropediatria, onde espera-se empatia. \nSegundo é a organização de agendas para um número X de pacientes. O hospital deve encontrar um meio termo entre atendimento e o ato de ser acadêmico, pois não há condições de um ser humano aprender atendendo 22-24 pacientes em um ambulatório de epilepsia por exemplo, pois nem o residente raciona e muito menos o preceptor. \nTerceiro, as salas estão com os pisos quebrados, não há espaço para guardar bolsas, não há armários, sendo que muitas vezes saimos para ver os casos e nossos pertences ficam à mostra, temos que confiar que ninguém vai mexer, inclui pacientes. \nQuarto é a colocação de seguranças e controle da entrada de pacientes, principalmente nas salas dos ambulatórios. Diversas vezes meus preceptores e eu sou abordada por pais alterados querendo renovação de receitas e ssendo agressivos se falarmos qualquer coisa que não os agradem, como que a receita não será renovada ou que só será com o prontuário.\nSão 4 pilares básicos para um local do tamanho do Oswaldo Cruz.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação e frustração com a falta de adaptações e apoio no ambiente de trabalho, além de descrever problemas estruturais e de segurança. A autora menciona dores emocionais e físicas, o que reforça o sentimento negativo.",
+      "processing_time": 4.272960424423218,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Adequação física para PCD",
+        "Melhorar organização de agendas",
+        "Reparar pisos quebrados",
+        "Implementar segurança nas salas",
+        "Apoio emocional para profissionais"
+      ]
+    },
+    {
+      "original_text": "A possibilidade de somar bolsas.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma ideia positiva ao mencionar a 'possibilidade de somar bolsas', sugerindo uma oportunidade de melhoria ou benefício, o que é geralmente visto como algo favorável.",
+      "processing_time": 2.0483572483062744,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Explorar mais bolsas",
+        "Aumentar oportunidades de financiamento"
+      ]
+    },
+    {
+      "original_text": "Abrir mais possibilidades de bolsas, pois assim vai poder agregar novos estudantes para a pesquisa por um todo.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa uma sugestão positiva que visa aumentar as oportunidades para estudantes, o que é um indicativo de uma visão otimista sobre a pesquisa e a inclusão de novos alunos.",
+      "processing_time": 3.0486793518066406,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Abrir mais bolsas de estudo",
+        "Agregar novos estudantes",
+        "Aumentar oportunidades de pesquisa"
+      ]
+    },
+    {
+      "original_text": "a reconstrução dos laboratórios",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto é uma afirmação factual sobre a reconstrução dos laboratórios, sem expressar emoções positivas ou negativas claras.",
+      "processing_time": 1.8198480606079102,
+      "success": true,
+      "error_message": null,
+      "suggestions": []
+    },
+    {
+      "original_text": "Um maior monitoramento dos docentes responsáveis. Muitos nos deixam sem apoio na extensão.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação com a falta de apoio dos docentes na extensão, indicando uma crítica ao monitoramento e à responsabilidade deles.",
+      "processing_time": 2.4456229209899902,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar monitoramento dos docentes",
+        "Oferecer mais apoio na extensão",
+        "Melhorar comunicação entre docentes e alunos"
+      ]
+    },
+    {
+      "original_text": "Ter mais estrutura física e orientação",
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "reasoning": "O texto apresenta uma sugestão factual sobre a necessidade de estrutura física e orientação, sem expressar emoções positivas ou negativas claras.",
+      "processing_time": 2.411836624145508,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar estrutura física",
+        "Oferecer mais orientação"
+      ]
+    },
+    {
+      "original_text": "Inserir projetos de pesquisa e extensão como parte das disciplinas regulares, para que o estudante veja a conexão entre teoria e prática.\nCriar plataformas online para registrar e divulgar projetos de pesquisa e extensão, possibilitando maior interação entre estudantes e professores.\nEstimular o uso de ferramentas digitais colaborativas para desenvolvimento de projetos.",
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa sugestões construtivas e positivas para melhorar a educação, destacando a importância da conexão entre teoria e prática, além de promover a interação e colaboração. Isso indica uma visão otimista sobre o potencial de melhorias no ensino.",
+      "processing_time": 3.642132520675659,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Inserir projetos de pesquisa nas disciplinas",
+        "Criar plataformas online para projetos",
+        "Estimular ferramentas digitais colaborativas"
+      ]
+    },
+    {
+      "original_text": "Melhor divulgação e mais oportunidades acadêmicas.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa uma sugestão que implica uma melhoria nas oportunidades acadêmicas, o que é visto como algo positivo. A menção de 'melhor divulgação' sugere um desejo de aprimoramento, indicando uma atitude otimista em relação ao futuro.",
+      "processing_time": 2.975649356842041,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Melhorar divulgação",
+        "Criar mais oportunidades acadêmicas"
+      ]
+    },
+    {
+      "original_text": "As extensões e os estágios deviam valer mais horas complementares. Só aproveitam 30h por semestre, quando trabalhamos 30h por semana praticamente.",
+      "sentiment": "negative",
+      "confidence": 0.85,
+      "reasoning": "O texto expressa insatisfação em relação à carga horária das extensões e estágios, indicando que o autor considera que o valor atual é insuficiente em comparação ao trabalho realizado.",
+      "processing_time": 2.3826138973236084,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Aumentar horas complementares",
+        "Rever carga horária",
+        "Reconhecer trabalho semanal"
+      ]
+    },
+    {
+      "original_text": "Mais projetos;\nExtensões elaboradas pelos próprios discentes;\nFlexibilização de atividades à noite.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas e proativas para melhorias, indicando um desejo de aprimorar o ensino e a extensão, o que reflete uma atitude positiva em relação ao desenvolvimento acadêmico.",
+      "processing_time": 3.1484715938568115,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais projetos",
+        "Extensões elaboradas pelos discentes",
+        "Flexibilização de atividades à noite"
+      ]
+    },
+    {
+      "original_text": "Mais bolsas de incentivo.\nBolsas que no critério do edital não exijam vínculo empregatício. \nAumento do valor das bolsas.\nBolsas em que suas atividades estejam alinhadas com o PPC do curso.\nDeveríamos ter mais disciplinas que envolva extensão. \nMais atividades de campo, sendo assim mais verba para locomoção (onibus, van) dos grupo.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "reasoning": "O texto expressa sugestões construtivas e um desejo de melhorias, indicando uma perspectiva positiva em relação ao ensino e à pesquisa. As propostas são voltadas para o aprimoramento das bolsas e atividades acadêmicas, o que demonstra um engajamento proativo.",
+      "processing_time": 3.5332934856414795,
+      "success": true,
+      "error_message": null,
+      "suggestions": [
+        "Mais bolsas de incentivo",
+        "Bolsas sem vínculo empregatício",
+        "Aumento do valor das bolsas",
+        "Mais disciplinas de extensão",
+        "Mais verba para locomoção"
+      ]
+    }
+  ],
+  "summary_stats": {
+    "total_responses": 148,
+    "successful_analyses": 148,
+    "failed_analyses": 0,
+    "success_rate": 100.0,
+    "sentiment_distribution": {
+      "positive": 79,
+      "negative": 27,
+      "neutral": 42
+    },
+    "sentiment_percentages": {
+      "positive": 53.37837837837838,
+      "negative": 18.243243243243242,
+      "neutral": 28.37837837837838
+    },
+    "confidence_stats": {
+      "mean": 0.8010135135135135,
+      "median": 0.8,
+      "min": 0.7,
+      "max": 0.9
+    },
+    "processing_time_stats": {
+      "total": 376.46754170417785,
+      "average": 2.5436996061093096,
+      "min": 0.001,
+      "max": 4.84976601600647
+    }
+  },
+  "processing_metadata": {
+    "source_file": ".\\data\\sugestoes.xlsx",
+    "processing_start_time": 1758906281.8743243,
+    "total_processing_time": 376.47564792633057,
+    "openai_model": "gpt-4o-mini",
+    "api_timeout": 30,
+    "max_retries": 3,
+    "client_statistics": {
+      "total_requests": 138,
+      "successful_requests": 138,
+      "failed_requests": 0,
+      "success_rate_percent": 100.0,
+      "rate_limit_hits": 0,
+      "timeout_errors": 0,
+      "consecutive_failures": 0,
+      "current_rate_limit_delay": 0.1,
+      "average_request_time": 2.778,
+      "model": "gpt-4o-mini",
+      "timeout": 30,
+      "max_retries": 3,
+      "last_request_time": 1758906654.8158095,
+      "last_rate_limit_time": 0.0,
+      "cache_stats": {
+        "cache_size": 138,
+        "cache_hits": 10,
+        "cache_misses": 138,
+        "cache_hit_rate_percent": 6.76,
+        "max_cache_size": 1000
+      },
+      "async_stats": {
+        "total_async_requests": 0,
+        "max_concurrent_requests": 0,
+        "current_concurrent": 0
+      }
+    },
+    "progress_summary": {
+      "total_items": 148,
+      "processed_items": 148,
+      "successful_items": 148,
+      "failed_items": 0,
+      "progress_percentage": 100.0,
+      "success_rate": 100.0,
+      "elapsed_time": 376.48,
+      "estimated_time_remaining": 0.0,
+      "average_processing_time": 2.54,
+      "current_item": "Mais bolsas de incentivo.\nBolsas que no critério d...",
+      "current_status": "Complete",
+      "is_complete": true
+    },
+    "original_response_count": 148,
+    "excel_headers": [
+      "melhorias_sugeridas_efetivar_ensino_pesquisa_extensao"
+    ]
+  },
+  "timestamp": "2025-09-26T14:10:58.350000",
+  "total_processed": 148,
+  "success_rate": 1.0
+}

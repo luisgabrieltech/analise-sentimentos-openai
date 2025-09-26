@@ -185,7 +185,7 @@ python -c "import os; from dotenv import load_dotenv; load_dotenv(); print(os.ge
 ### Erro de Modelo
 
 Certifique-se de que o modelo no `.env` está correto:
-S `gpt-4o-mini` (alternativa)
+- `gpt-4o-mini` (alternativa)
 - `gpt-3.5-turbo` (padrão)
 
 ### Problemas de Performance

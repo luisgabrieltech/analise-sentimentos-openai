@@ -51,6 +51,7 @@ class APIResponse:
     reasoning: Optional[str] = None
     error_message: Optional[str] = None
     processing_time: float = 0.0
+    suggestions: Optional[List[str]] = None
 
 
 class OpenAIClient:
@@ -148,7 +149,8 @@ class OpenAIClient:
                 reasoning=f"[CACHED] {cached_result.reasoning}",
                 processing_time=0.001,  # Minimal time for cache retrieval
                 success=cached_result.success,
-                error_message=cached_result.error_message
+                error_message=cached_result.error_message,
+                suggestions=cached_result.suggestions or []
             )
         else:
             self._cache_misses += 1
@@ -182,13 +184,14 @@ class OpenAIClient:
             reasoning=result.reasoning,
             processing_time=result.processing_time,
             success=result.success,
-            error_message=result.error_message
+            error_message=result.error_message,
+            suggestions=result.suggestions or []
         )
         
         self._cache[cache_key] = cached_result
         self.logger.debug(f"Cached result for text: {text[:50]}...")
     
-    async def analyze_sentiment_async(self, text: str) -> SentimentResult:
+    async def analyze_sentiment_async(self, text: str, context: str = None) -> SentimentResult:
         """
         Analyze sentiment of a single text response asynchronously.
         
@@ -211,7 +214,8 @@ class OpenAIClient:
                 reasoning="Empty or whitespace-only text",
                 processing_time=0.0,
                 success=False,
-                error_message="Cannot analyze empty text"
+                error_message="Cannot analyze empty text",
+                suggestions=[]
             )
         
         async with self._semaphore:  # Limit concurrent requests
@@ -257,7 +261,8 @@ class OpenAIClient:
                                     reasoning="Analysis failed",
                                     processing_time=processing_time,
                                     success=False,
-                                    error_message=response.error_message
+                                    error_message=response.error_message,
+                                    suggestions=[]
                                 )
                     
                     except Exception as e:
@@ -275,7 +280,8 @@ class OpenAIClient:
                                 reasoning="Analysis failed",
                                 processing_time=processing_time,
                                 success=False,
-                                error_message=f"Async error after all retries: {str(e)}"
+                                error_message=f"Async error after all retries: {str(e)}",
+                                suggestions=[]
                             )
                 
             finally:
@@ -317,7 +323,8 @@ class OpenAIClient:
                         reasoning="Batch processing error",
                         processing_time=0.0,
                         success=False,
-                        error_message=f"Batch error: {str(result)}"
+                        error_message=f"Batch error: {str(result)}",
+                        suggestions=[]
                     )
                     results.append(error_result)
                 else:
@@ -346,7 +353,7 @@ class OpenAIClient:
         
         try:
             # Create the prompt for sentiment analysis
-            prompt = self._create_sentiment_prompt(text)
+            prompt = self._create_sentiment_prompt(text, context)
             
             self.logger.debug(f"Making async API request to model {self.config.openai_model}")
             
@@ -381,7 +388,7 @@ class OpenAIClient:
             else:
                 raise openai.APIError(str(e))
 
-    def analyze_sentiment(self, text: str) -> SentimentResult:
+    def analyze_sentiment(self, text: str, context: str = None) -> SentimentResult:
         """
         Analyze sentiment of a single text response.
         
@@ -407,7 +414,8 @@ class OpenAIClient:
                 reasoning="Empty or whitespace-only text",
                 processing_time=0.0,
                 success=False,
-                error_message="Cannot analyze empty text"
+                error_message="Cannot analyze empty text",
+                suggestions=[]
             )
         
         start_time = time.time()
@@ -417,7 +425,7 @@ class OpenAIClient:
         for attempt in range(self.config.max_retries + 1):
             try:
                 self.logger.debug(f"Attempt {attempt + 1}/{self.config.max_retries + 1} for text analysis")
-                response = self._make_api_request(text)
+                response = self._make_api_request(text, context)
                 processing_time = time.time() - start_time
                 
                 if response.success:
@@ -430,7 +438,8 @@ class OpenAIClient:
                         confidence=response.confidence,
                         reasoning=response.reasoning,
                         processing_time=processing_time,
-                        success=True
+                        success=True,
+                        suggestions=response.suggestions or []
                     )
                     # Cache successful result
                     self._store_in_cache(text, result)
@@ -447,7 +456,8 @@ class OpenAIClient:
                             reasoning="Analysis failed",
                             processing_time=processing_time,
                             success=False,
-                            error_message=response.error_message
+                            error_message=response.error_message,
+                            suggestions=[]
                         )
                     else:
                         self.logger.warning(f"Attempt {attempt + 1} failed: {response.error_message}")
@@ -479,7 +489,8 @@ class OpenAIClient:
                         reasoning="Analysis failed due to rate limiting",
                         processing_time=processing_time,
                         success=False,
-                        error_message=f"Rate limit exceeded after all retries: {str(e)}"
+                        error_message=f"Rate limit exceeded after all retries: {str(e)}",
+                        suggestions=[]
                     )
             
             except TimeoutError as e:
@@ -506,7 +517,8 @@ class OpenAIClient:
                         reasoning="Analysis failed due to timeout",
                         processing_time=processing_time,
                         success=False,
-                        error_message=f"Request timed out after all retries: {str(e)}"
+                        error_message=f"Request timed out after all retries: {str(e)}",
+                        suggestions=[]
                     )
             
             except AuthenticationError as e:
@@ -521,7 +533,8 @@ class OpenAIClient:
                     reasoning="Authentication failed",
                     processing_time=processing_time,
                     success=False,
-                    error_message=f"Authentication failed: {str(e)}"
+                    error_message=f"Authentication failed: {str(e)}",
+                    suggestions=[]
                 )
             
             except OpenAIError as e:
@@ -547,7 +560,8 @@ class OpenAIClient:
                         reasoning="Analysis failed",
                         processing_time=processing_time,
                         success=False,
-                        error_message=f"API error after all retries: {str(e)}"
+                        error_message=f"API error after all retries: {str(e)}",
+                        suggestions=[]
                     )
         
         # This should never be reached, but just in case
@@ -559,15 +573,17 @@ class OpenAIClient:
             reasoning="Analysis failed",
             processing_time=processing_time,
             success=False,
-            error_message="Unexpected error in retry loop"
+            error_message="Unexpected error in retry loop",
+            suggestions=[]
         )
     
-    def _make_api_request(self, text: str) -> APIResponse:
+    def _make_api_request(self, text: str, context: str = None) -> APIResponse:
         """
         Make a single API request to analyze sentiment.
         
         Args:
             text: The text to analyze
+            context: Optional context information (e.g., column headers)
             
         Returns:
             APIResponse object with the result
@@ -584,7 +600,7 @@ class OpenAIClient:
             self._enforce_rate_limit()
             
             # Create the prompt for sentiment analysis
-            prompt = self._create_sentiment_prompt(text)
+            prompt = self._create_sentiment_prompt(text, context)
             
             self.logger.debug(f"Making API request to model {self.config.openai_model}")
             
@@ -641,12 +657,13 @@ class OpenAIClient:
             self.logger.error(f"Unexpected error during API request: {str(e)}")
             raise OpenAIError(error_msg)
     
-    def _create_sentiment_prompt(self, text: str) -> str:
+    def _create_sentiment_prompt(self, text: str, context: str = None) -> str:
         """
-        Create a well-engineered prompt for sentiment analysis.
+        Create a well-engineered prompt for sentiment analysis with suggestion extraction.
         
         Args:
             text: The text to analyze
+            context: Optional context information (e.g., column headers)
             
         Returns:
             Formatted prompt string
@@ -656,11 +673,25 @@ class OpenAIClient:
         if len(text) > max_text_length:
             text = text[:max_text_length] + "..."
         
+        # Build context section if provided
+        context_section = ""
+        if context and context.strip():
+            # Clean and format context
+            clean_context = context.replace('_', ' ').replace('-', ' ').title()
+            context_section = f"""
+CONTEXTO DA PERGUNTA/CAMPO:
+"{clean_context}"
+
+Use este contexto para entender melhor o propósito da resposta e fornecer análise mais específica e sugestões mais relevantes.
+
+"""
+
         prompt = f"""
 Analise o sentimento do seguinte texto e responda com um objeto JSON contendo:
 - "sentiment": um de "positive", "negative", ou "neutral"
 - "confidence": um número entre 0.0 e 1.0 indicando a confiança na classificação
 - "reasoning": uma breve explicação em português de por que este sentimento foi escolhido
+- "suggestions": uma lista de sugestões ou temas mencionados no texto (máximo 5 itens)
 
 Diretrizes:
 - "positive": Texto expressa satisfação, felicidade, aprovação ou outras emoções positivas
@@ -670,7 +701,15 @@ Diretrizes:
 - Seja conservador com pontuações de confiança - use pontuações menores para texto ambíguo
 - IMPORTANTE: A explicação (reasoning) deve ser sempre em português
 
-Texto para analisar:
+Para "suggestions":
+- Extraia temas, sugestões de melhoria, problemas mencionados ou pontos importantes
+- Use frases curtas e claras (máximo 50 caracteres cada)
+- Foque em aspectos acionáveis ou categorias relevantes
+- Se não houver sugestões claras, retorne uma lista vazia []
+- Considere o contexto fornecido para sugestões mais específicas e relevantes
+- Exemplos: ["Melhorar atendimento", "Mais informações", "Sistema mais rápido"]
+
+{context_section}Texto para analisar:
 "{text}"
 
 Responda apenas com JSON válido:
@@ -726,11 +765,20 @@ Responda apenas com JSON válido:
             if not isinstance(reasoning, str):
                 reasoning = str(reasoning)
             
+            # Process suggestions field
+            suggestions = data.get("suggestions", [])
+            if not isinstance(suggestions, list):
+                suggestions = []
+            else:
+                # Ensure all suggestions are strings and limit length
+                suggestions = [str(s)[:50] for s in suggestions if s][:5]
+            
             return APIResponse(
                 success=True,
                 sentiment=sentiment,
                 confidence=float(confidence),
-                reasoning=reasoning
+                reasoning=reasoning,
+                suggestions=suggestions
             )
             
         except json.JSONDecodeError as e:

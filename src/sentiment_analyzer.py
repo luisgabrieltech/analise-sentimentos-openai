@@ -626,8 +626,18 @@ class SentimentAnalyzer:
             )
         
         try:
-            # Analyze sentiment using OpenAI client
-            result = self.openai_client.analyze_sentiment(text_content)
+            # Extract context from headers for better analysis
+            headers = response.get('headers', [])
+            context = None
+            if headers:
+                # Use the first text column as context (skip ID columns)
+                for header in headers:
+                    if not self._is_likely_id_column(header):
+                        context = header
+                        break
+            
+            # Analyze sentiment using OpenAI client with context
+            result = self.openai_client.analyze_sentiment(text_content, context)
             
             # Add additional metadata from Excel response
             if hasattr(result, 'excel_metadata'):
@@ -648,7 +658,8 @@ class SentimentAnalyzer:
                 reasoning="API error occurred",
                 processing_time=0.0,
                 success=False,
-                error_message=f"OpenAI API error: {str(e)}"
+                error_message=f"OpenAI API error: {str(e)}",
+                suggestions=[]
             )
         
         except Exception as e:
@@ -660,7 +671,8 @@ class SentimentAnalyzer:
                 reasoning="Unexpected error occurred",
                 processing_time=0.0,
                 success=False,
-                error_message=f"Unexpected error: {str(e)}"
+                error_message=f"Unexpected error: {str(e)}",
+                suggestions=[]
             )
     
     def _calculate_summary_stats(self, results: List[SentimentResult]) -> Dict[str, Any]:
@@ -1052,4 +1064,28 @@ class SentimentAnalyzer:
         Returns:
             Current ProgressTracker object or None if no analysis is running
         """
-        return self.progress_tracker
+        return self.progress_tracker   
+ 
+    def _is_likely_id_column(self, column_name: str) -> bool:
+        """
+        Determine if a column is likely an ID or number field rather than text content.
+        
+        Args:
+            column_name: Name of the column
+            
+        Returns:
+            True if likely an ID or number field
+        """
+        # Check column name patterns
+        id_patterns = ['id', 'number', 'num', 'index', 'seq']
+        column_lower = column_name.lower().strip()
+        
+        # Flag as ID if column name matches common patterns
+        if (column_lower in id_patterns or 
+            column_lower.startswith('id_') or 
+            column_lower.startswith('num_') or
+            column_lower.endswith('_id') or
+            column_lower.endswith('_number')):
+            return True
+        
+        return False

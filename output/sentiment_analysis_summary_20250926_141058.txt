@@ -1,0 +1,135 @@
+============================================================
+SENTIMENT ANALYSIS REPORT
+============================================================
+Generated: 2025-09-26 14:10:58
+Total Responses Analyzed: 148
+Success Rate: 100.0%
+
+EXECUTIVE SUMMARY
+-----------------
+
+Overall Sentiment Distribution:
+  • Positive: 79 responses (53.4%)
+  • Neutral:  42 responses (28.4%)
+  • Negative: 27 responses (18.2%)
+
+Key Findings:
+  • Positive sentiment dominates with 79 responses
+  • Average confidence score: 0.80
+  • Processing completed with 100.0% success rate
+
+DETAILED STATISTICS
+-------------------
+
+Sentiment Distribution:
+  Positive:   79 responses
+  Neutral:    42 responses
+  Negative:   27 responses
+  Total:     148 responses
+
+Confidence Score Statistics:
+  Mean:     0.801
+  Median:   0.800
+  Min:      0.700
+  Max:      0.900
+  Std Dev:  0.061
+
+Processing Time Statistics:
+  Average:  2.54 seconds per response
+  Total:    376.47 seconds
+  Fastest:  0.00 seconds
+  Slowest:  4.85 seconds
+
+SAMPLE RESULTS
+--------------
+
+Positive Examples:
+  1. Text: "Acho tudo bom em relação a pesquisa e extensão"
+     Confidence: 0.900 | Reasoning: O texto expressa uma opinião favorável sobre pesquisa e extensão, indicando sati...
+
+  2. Text: "Acho os professores muito receptivos"
+     Confidence: 0.900 | Reasoning: O texto expressa uma opinião favorável sobre os professores, destacando sua rece...
+
+  3. Text: "Pra mim está bom!"
+     Confidence: 0.900 | Reasoning: O texto expressa uma opinião favorável, indicando satisfação com a situação atua...
+
+  4. Text: "Está tudo ótimo."
+     Confidence: 0.900 | Reasoning: O texto expressa uma avaliação positiva clara com a frase 'Está tudo ótimo', ind...
+
+  5. Text: "Sugiro unir mais a teoria e prática em projetos que atendam demandas reais da comunidade e gerem imp..."
+     Confidence: 0.850 | Reasoning: O texto expressa uma sugestão construtiva que visa melhorar a conexão entre teor...
+
+Negative Examples:
+  1. Text: "Acho que poderia ter mais incentivo para os alunos participarem de projetos de pesquisa e extensão d..."
+     Confidence: 0.850 | Reasoning: O texto expressa insatisfação com a falta de incentivo e validação de certificad...
+
+  2. Text: "Acredito que a formulação das atividades de ensino, pesquisa e extensão de forma mais contínua com o..."
+     Confidence: 0.850 | Reasoning: O texto expressa insatisfação com a forma como as atividades de ensino, pesquisa...
+
+  3. Text: "É necessário mais bolsas de iniciaçãocientífica para incentivar pesquisa e extensão. As que temos ho..."
+     Confidence: 0.850 | Reasoning: O texto expressa insatisfação com a quantidade limitada de bolsas de iniciação c...
+
+  4. Text: "Que todas as atividades sejam apresentadas com mais clareza aos alunos que chegam a universidade sem..."
+     Confidence: 0.850 | Reasoning: O texto expressa insatisfação com a falta de clareza nas atividades, o que leva ...
+
+  5. Text: "Acredito que uma criação de cantina na FOP, pois com a falta de acesso a alimentação ao redor do nov..."
+     Confidence: 0.850 | Reasoning: O texto expressa preocupação com a saúde dos alunos e a qualidade do aprendizado...
+
+Neutral Examples:
+  1. Text: "."
+     Confidence: 0.900 | Reasoning: O texto é apenas um ponto final, não expressando qualquer emoção ou opinião clar...
+
+  2. Text: "."
+     Confidence: 0.900 | Reasoning: [CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opi...
+
+  3. Text: "."
+     Confidence: 0.900 | Reasoning: [CACHED] O texto é apenas um ponto final, não expressando qualquer emoção ou opi...
+
+  4. Text: "-"
+     Confidence: 0.900 | Reasoning: O texto fornecido é apenas um traço ('-'), não expressando sentimentos ou emoçõe...
+
+  5. Text: "Nada a declarar."
+     Confidence: 0.900 | Reasoning: O texto 'Nada a declarar.' é uma afirmação neutra, sem expressar emoções ou opin...
+
+SUGESTÕES MAIS CITADAS
+----------------------
+
+Os itens mais citados pelos respondentes foram:
+  a) Aumentar Número De Bolsas (6 menções - 4.1%)
+  b) Oferecer Mais Bolsas (4 menções - 2.7%)
+  c) Melhorar Infraestrutura (4 menções - 2.7%)
+  d) Mais Bolsas Remuneradas (4 menções - 2.7%)
+  e) Mais Bolsas (3 menções - 2.0%)
+  f) Mais Bolsas De Estudo (2 menções - 1.4%)
+  g) Melhorar Comunicação (2 menções - 1.4%)
+  h) Aumentar Respostas (2 menções - 1.4%)
+  i) Feedback Mais Rápido (2 menções - 1.4%)
+  j) Melhorar Divulgação (2 menções - 1.4%)
+
+Total de sugestões únicas: 316
+Total de menções: 340
+
+PROCESSING INFORMATION
+----------------------
+
+Processing Details:
+  Source File: .\data\sugestoes.xlsx
+  Total Processing Time: 376.48 seconds
+  Openai Model: gpt-4o-mini
+
+API Performance Statistics:
+  Total API Requests: 138
+  Success Rate: 100.0%
+  Average Request Time: 2.778s
+  Rate Limit Hits: 0
+  Timeout Errors: 0
+
+Cache Performance:
+  Cache Size: 138 entries
+  Cache Hits: 10
+  Cache Misses: 138
+  Cache Hit Rate: 6.8%
+
+============================================================
+Report generated at 2025-09-26 14:10:58
+============================================================

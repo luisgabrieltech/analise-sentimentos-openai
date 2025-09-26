@@ -92,7 +92,7 @@ class TestCachePerformance(PerformanceTestCase):
         
         # Mock the API call to be slow
         with patch.object(client, '_make_api_request') as mock_api:
-            def slow_api_call(text):
+            def slow_api_call(text, context=None):
                 time.sleep(0.1)  # Simulate 100ms API delay
                 return client._parse_api_response(
                     self.create_mock_openai_response("positive", 0.9, "Test response")
@@ -194,7 +194,7 @@ class TestAsyncPerformance(PerformanceTestCase):
         
         # Test sync processing
         with patch.object(client, '_make_api_request') as mock_sync_api:
-            def slow_api_call(text):
+            def slow_api_call(text, context=None):
                 time.sleep(0.1)  # Simulate API delay
                 return client._parse_api_response(
                     self.create_mock_openai_response("positive", 0.9, "Sync test")
@@ -352,18 +352,18 @@ class TestThroughputBenchmarks(PerformanceTestCase):
         
         analyzer = SentimentAnalyzer(self.config)
         
-        # Mock API calls for consistent timing
-        with patch.object(analyzer.openai_client, 'analyze_sentiment') as mock_analyze:
-            def mock_sentiment_analysis(text):
-                time.sleep(0.05)  # Simulate 50ms API call
-                return SentimentResult(
-                    original_text=text,
-                    sentiment="positive",
-                    confidence=0.9,
-                    reasoning="Benchmark test",
-                    processing_time=0.05,
-                    success=True
-                )
+        # Mock API calls for consistent timing 
+        with patch.object(analyzer.openai_client, 'analyze_sentiment') as mock_analyze: 
+            def mock_sentiment_analysis(text, context=None): 
+                time.sleep(0.05)  # Simulate 50ms API call 
+                return SentimentResult( 
+                    original_text=text, 
+                    sentiment="positive", 
+                    confidence=0.9, 
+                    reasoning="Benchmark test", 
+                    processing_time=0.05, 
+                    success=True 
+                ) 
             mock_analyze.side_effect = mock_sentiment_analysis
             
             # Benchmark standard processing
@@ -380,6 +380,11 @@ class TestThroughputBenchmarks(PerformanceTestCase):
             # Verify all responses were processed
             self.assertEqual(len(standard_results), 20)
             self.assertTrue(all(r.success for r in standard_results))
+            
+            # Verify throughput meets minimum performance requirements
+            # Expecting at least 5 responses per second with the 50ms mock delay
+            self.assertTrue(standard_throughput >= 5.0, 
+                           f"Throughput below minimum requirement: {standard_throughput:.2f} responses/second")
     
     def test_latency_distribution(self):
         """Test latency distribution for individual requests."""
@@ -387,7 +392,7 @@ class TestThroughputBenchmarks(PerformanceTestCase):
         latencies = []
         
         with patch.object(client, '_make_api_request') as mock_api:
-            def variable_latency_api(text):
+            def variable_latency_api(text, context=None):
                 # Simulate variable API latency
                 import random
                 delay = random.uniform(0.1, 0.5)

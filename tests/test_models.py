@@ -103,7 +103,8 @@ class TestSentimentResult:
             confidence=0.8,
             reasoning="Test reasoning",
             processing_time=1.5,
-            success=True
+            success=True,
+            suggestions=["Test suggestion"]
         )
         
         result_dict = result.to_dict()
@@ -114,7 +115,8 @@ class TestSentimentResult:
             'reasoning': 'Test reasoning',
             'processing_time': 1.5,
             'success': True,
-            'error_message': None
+            'error_message': None,
+            'suggestions': ["Test suggestion"]
         }
         
         assert result_dict == expected_dict
@@ -144,8 +146,8 @@ class TestAnalysisResults:
     def test_valid_analysis_results_creation(self):
         """Test creating valid AnalysisResults."""
         individual_results = [
-            SentimentResult("Text 1", "positive", 0.8, "Reason 1", 1.0, True),
-            SentimentResult("Text 2", "negative", 0.7, "Reason 2", 1.2, True)
+            SentimentResult("Text 1", "positive", 0.8, "Reason 1", 1.0, True, suggestions=[]),
+            SentimentResult("Text 2", "negative", 0.7, "Reason 2", 1.2, True, suggestions=[])
         ]
         
         results = AnalysisResults(
@@ -189,8 +191,8 @@ class TestAnalysisResults:
     def test_too_many_individual_results_raises_error(self):
         """Test that more individual results than total processed raises ValueError."""
         individual_results = [
-            SentimentResult("Text 1", "positive", 0.8, "Reason", 1.0, True),
-            SentimentResult("Text 2", "negative", 0.7, "Reason", 1.0, True)
+            SentimentResult("Text 1", "positive", 0.8, "Reason", 1.0, True, suggestions=[]),
+            SentimentResult("Text 2", "negative", 0.7, "Reason", 1.0, True, suggestions=[])
         ]
         
         with pytest.raises(ValueError, match="Number of individual results cannot exceed total processed"):

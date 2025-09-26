@@ -25,6 +25,7 @@ class SentimentResult:
         processing_time: Time taken to process this response in seconds
         success: Whether the analysis was successful
         error_message: Error details if analysis failed
+        suggestions: List of suggestions or themes extracted from the text
     """
     original_text: str
     sentiment: str
@@ -33,6 +34,7 @@ class SentimentResult:
     processing_time: float
     success: bool
     error_message: Optional[str] = None
+    suggestions: Optional[List[str]] = None
     
     def __post_init__(self):
         """Validate the data after initialization."""
