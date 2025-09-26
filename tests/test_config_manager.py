@@ -238,7 +238,7 @@ class TestConfiguration(unittest.TestCase):
         
         self.assertEqual(config.openai_api_key, "test-key")
         self.assertIsNone(config.openai_org_id)
-        self.assertEqual(config.openai_model, "gpt-3.5-turbo")
+        self.assertEqual(config.openai_model, "gpt-4o-mini")
         self.assertEqual(config.api_timeout, 30)
         self.assertEqual(config.max_retries, 3)
     
